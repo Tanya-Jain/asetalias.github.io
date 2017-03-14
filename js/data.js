@@ -195,7 +195,7 @@ for (var x in team){
 /** End Team List**/
 
 /**Button Random Color**/
-var colors = ['Lime','Green','Light-Blue','Blue','Purple','Pink'];
+var colors = ['Lime','Blue','Purple'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 $(".siteAboutHistory").addClass("button-"+random_color);
 $(".siteAboutServices").addClass("button-"+random_color);
@@ -206,16 +206,12 @@ $("#webinarsListContainer>div").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 $("alumniDescription>p").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
-$("").addClass("button-"+random_color);
 $(".TeamGrad").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 $("#section-color-fix").addClass("button-"+random_color);
 $("#button-color-fix2").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
-
-var random_color = colors[Math.floor(Math.random() * colors.length)];
 $("#button-color-fix").addClass("button-"+random_color);
-
 
 /** Do Not Change! Still in BETA **/
 var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)

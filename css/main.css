@@ -263,7 +263,7 @@ button{
 }
 .iconMed{
 	font-size:36px;
-	color: #7a5c61;
+	color: #fff;
 }
 .navigation-links{
 	margin:auto;
@@ -418,7 +418,7 @@ a.page-scroll img:hover{height:60px; width:auto;}
 	position:absolute;
 	left:-22px;
 	width:10px;height:10px;
-	color:#7a5c61;
+	color:#fff;
 	font-size:14px;
 }
 @media all and (min-width:400px){
