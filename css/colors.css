@@ -1,66 +1,88 @@
-.button-Amber{
-	background-color: #FFA000;
-}
-.button-Amber:hover{
-	background-color: #FFB300;
-}
+/*.button-Lime,.button-Green,
+.button-Blue.button-Light-Blue,
+.button-Purple,.button-Pink{
+	border-style: solid;
+	border-width: 3px;
+} */
+
 .button-Lime{
-	background-color: #AEEA00;
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Lime:hover{
-	background-color: #C6FF00;
+/*	border-color: #AEEA00; */
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Green{
-	background-color: #2e7d32;
+/*	border-color: #00C853; */
+	background: #AB47BC; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #AB47BC, #311B92); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #AB47BC, #311B92); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #AB47BC, #311B92); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #AB47BC, #311B92); /* Standard syntax */
 }
 .button-Green:hover{
-	background-color: #388e3c;
-}
-.button-Green{
-	background-color: #2e7d32;
-}
-.button-Green:hover{
-	background-color: #388e3c;
+/*	border-color: #64DD17; */
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Light-Blue{
-	background-color: #0277bd;
+/*	border-color: #29B6F6; */
+	background: #039BE5; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #039BE5, #311B92); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #039BE5, #311B92); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #039BE5, #311B92); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #039BE5, #311B92); /* Standard syntax */
 }
 .button-Light-Blue:hover{
-	background-color: #0288d1;
+	border-color: #00B0FF;
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Blue{
-	background-color: #1976d2;
+/*	border-color: #2196F3; */
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Blue:hover{
-	background-color: #1e88e5;
+	border-color: #1DE9B6;
+
 }
 .button-Purple{
-	background-color: #7b1fa2;
+/*	border-color: #9C27B0; */
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Purple:hover{
-	background-color: #6a1b9a;
-}
-.button-Purple{
-	background-color: #7b1fa2;
-}
-.button-Purple:hover{
-	background-color: #6a1b9a;
-}
-.button-Red{
-	background-color: #f44336;
-}
-.button-Red:hover{
-	background-color: #ef5350;
+
 }
 .button-Pink{
-	background-color: #ff4081;
+/*	border-color: #EC407A; */
+	background: #CDDC39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
 }
 .button-Pink:hover{
-	background-color: #ff80ab;
-}
-.button-Deep-Orange{
-	background-color: #ff3d00;
-}
-.button-Deep-Orange:hover{
-	background-color: #ff6e40;
+	border-color: #FF4081;
 }
