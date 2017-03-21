@@ -20,7 +20,8 @@ var joinNowBtnLink = "https://goo.gl/forms/mkBRe8jA5pJlexaK2";
 var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain.";
 
 /** Array Definitions**/
-var services = [];
+var services1 = [];
+var services2 = [];
 var events = [];
 var webinars = [];
 var team = [];
@@ -35,12 +36,13 @@ var team = [];
 	Credits: Ajay Tripathi
 **/
 
-services[0] = "Stand out of crowd and learn unique skills from people already working in the industry!";
-services[1] = "Be a part of Hacker Culture";
-services[3] = "Learn by Fun and Collaboration";
-services[4] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
-services[6] = "Already know something? Teach it to others! That's how we work!";
-services[5] = "Alias welcomes each and every student of amity irrespective of their department.";
+services1[0] = "Stand out of crowd and learn unique skills from people already working in the industry!";
+services1[1] = "Be a part of Hacker Culture";
+services1[2] = "Already know something? Teach it to others! That's how we work!";
+
+services2[0] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
+services2[1] = "Learn by Fun and Collaboration";
+services2[2] = "ALiAS welcomes each and every student of amity irrespective of their department.";
 /** End Services **/
 
 /** Events List
@@ -92,7 +94,8 @@ var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
-var siteServicesListContainer = $(".servicesList");
+var siteServicesListContainer1 = $(".servicesList-1");
+var siteServicesListContainer2 = $(".servicesList-2");
 var eventsListContainer = $("#eventsListContainer");
 var webinarsListContainer = $("#webinarsListContainer");
 var alumniDescriptionContainer = $(".alumniDescription p");
@@ -126,9 +129,13 @@ flashBoxCloseBtn.click(function(e){
 	flashBox.fadeOut();
 });
 /** Generate Services **/
-for(var x in services){
-	var html = '<li class="fa"><span>'+services[x]+'</span></li>';
-	siteServicesListContainer.append(html);
+for(var x in services1){
+	var html = '<li class="fa"><span>'+services1[x]+'</span></li>';
+	siteServicesListContainer1.append(html);
+}
+for(var x in services2){
+	var html = '<li class="fa"><span>'+services2[x]+'</span></li>';
+	siteServicesListContainer2.append(html);
 }
 /** Generate Event Boxes **/
 for (var x in events){
@@ -197,8 +204,8 @@ for (var x in team){
 /**Button Random Color**/
 var colors = ['Lime','Blue','Purple'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
-$(".siteAboutHistory").addClass("button-"+random_color);
-$(".siteAboutServices").addClass("button-"+random_color);
+$("vv").addClass("button-"+random_color);
+$("").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 $("#eventsListContainer>div").addClass("button-"+random_color);
 var random_color = colors[Math.floor(Math.random() * colors.length)];
