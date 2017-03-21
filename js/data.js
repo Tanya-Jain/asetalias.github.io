@@ -45,6 +45,7 @@ services2[2] = "Already know something? Teach it to others! That's how we work!"
 	endTime: Event End Time
 	location: Event Location
 	eventOD: 0 for NO, 1 for YES. The text and respective classes are automatically added by the script
+
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 
 **/
@@ -81,7 +82,7 @@ pics[3]= {url:"https://lh3.googleusercontent.com/qu04uXsdaq9jBzRPzzqZRStGZt42Kbj
 resource[0]={cta:"https://docs.google.com/document/d/1s3RWKEemXNnCOPb_YyEMFIjC5C6R8R8K2gxMXRQyG7U/edit?usp=sharing",url:"images/Resources/OpnSrcGrps.jpg", text:"Links to Opensource Communities in Delhi/NCR."};
 resource[1]={cta:"https://docs.google.com/document/d/13h5MoQZv4KgnLjkeDiRHjaAZRF-VaUpy-ZN4EltIwiA/edit?usp=sharing",url:"images/Resources/StudyMaterial.jpg", text:"Links to helpful Study Material & Resources."};
 resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.png", text:"Links to events recommended for participation."};
- 
+
 /** Team List
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 **/
@@ -118,9 +119,26 @@ document.title = siteTitle;			//Update Site Title
 coverLogoContainer.attr("src",logoUrl);	//Update Logo on Cover page
 siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
+
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 
+/** Load and enable FlashBox **/
+
+if(showFlashBox){
+	if(flashBoxEndDate.getFullYear()>=currentDate.getFullYear()){
+		if(flashBoxEndDate.getMonth()>=currentDate.getMonth()){
+			if(flashBoxEndDate.getDate()>=currentDate.getDate()){
+				flashBoxContentContainer.html(flashBoxContent);
+				flashBox.fadeIn();
+			}
+		}
+	}
+
+}
+flashBoxCloseBtn.click(function(e){
+	flashBox.fadeOut();
+});
 /** Generate Services **/
 for(var x in services1){
 	var html = '<li class="fa"><span>'+services1[x]+'</span></li>';
@@ -130,6 +148,7 @@ for(var x in services2){
 	var html = '<li class="fa"><span>'+services2[x]+'</span></li>';
 	siteServicesListContainer2.append(html);
 }
+
 /** Generate Event Boxes **/
 for (var x in events){
 		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 img"><img src="'+events[x].bg+'"></div><div class="col-lg-12 text-center h"><h2>'+events[x].title+'</h2></div></div>';
@@ -185,7 +204,6 @@ for (var x in resource){
 	var html= '<div class="resourceBox col-centered"><div class="row"><a href='+resource[x].cta+'><div class="resourcePics picHover"><img src="'+resource[x].url+'"><p class="resourceText">'+resource[x].text+'</p></div></div>';
 	resourceList.append(html);
 }
-
 function goRight(){ // inner stuff slides left
     var initalLeftMargin = $( "#webinarsListContainer" ).css('margin-left').replace("px", "")*1;
     var newLeftMargin = (initalLeftMargin - 385); // extra 2 for border
@@ -209,7 +227,6 @@ for (var x in team){
 	html+='</div></div></div></div></div>';
 	teamListContainer.append(html);
 }
-/** End Team List**/
 /** Do Not Change! Still in BETA **/
 var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)
 $(".theme-bg").addClass(siteThemeClassName);
