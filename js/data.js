@@ -15,7 +15,8 @@ var alumniDescription = "Alumni who were a part of ALiAS are now placed in vario
 var rankers = {name1:"Sample", ppicUrl1: "images/alumni/1.jpg",rank1:"0000", name2:"Sample", ppicUrl2: "images/alumni/1.jpg",rank2:"0000", name3:"Sample", ppicUrl3: "images/alumni/1.jpg",rank3:"0000"};
 
 /** Array Definitions**/
-var services = [];
+var services1 = [];
+var services2 = [];
 var events = [];
 var webinars = [];
 var team = [];
@@ -23,14 +24,13 @@ var pics = [];
 var resource = [];
 
 /** Services List **/
-
-services[0] = "Stand out of crowd and learn unique skills from people already working in the industry!";
-services[1] = "Find like minded Delhi/NCR Tech Communities.";
-services[2] = "Find mentors for GSoC";
-services[3] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
-services[4] = "Chance to find Interships under our Alumni.";
-services[5] = "ALiAS welcomes each and every student of amity irrespective of their department.";
-services[6] = "Already know something? Teach it to others! That's how we work!";
+services1[0] = "Stand out of crowd and learn unique skills from people already working in the industry!";
+services1[1] = "Find like minded Delhi/NCR Tech Communities.";
+services1[2] = "Find mentors for GSoC";
+services1[3] = "Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!";
+services2[0] = "Chance to find Interships under our Alumni.";
+services2[1] = "ALiAS welcomes each and every student of amity irrespective of their department.";
+services2[2] = "Already know something? Teach it to others! That's how we work!";
 /** End Services **/
 
 /** Events List
@@ -46,17 +46,18 @@ services[6] = "Already know something? Teach it to others! That's how we work!";
 	location: Event Location
 	eventOD: 0 for NO, 1 for YES. The text and respective classes are automatically added by the script
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
-	
+
 **/
-events[0] = {title: "Study Group: Web Designing", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Register", cta2: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", cta2Text: "Study Material", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in this on going Study Group Sessions of Web Designing  and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:0 };
+events[0] = {title: "Study Group: Web Designing", bg: "images/im.JPG", cta: "https://docs.google.com/forms/d/e/1FAIpQLScaB0SGVp31QzY4Pg6Mcj0sr2R7JqYGgVMbnrAyivCSOKD4Dg/viewform", ctaText: "Register", cta2: "https://drive.google.com/open?id=0B-SmzjWLoGhCeFdBemVJWDREZlk", cta2Text: "Study Material", description: "Learn Web Designing {HTML, CSS, JQuery} from scratch in these on going Study Group Sessions and start contributing to open source projects.", date: "On Going", startTime: "Tentative", endTime: "Tentative", location: "Announced on Group", eventOD: 0, cta2enable:0 };
 
 /** End Events List **/
 
 /** Webinars List  **/
 
-webinars[0] = {title: "Webinar: Introduction to Linux", cta: "https://www.youtube.com/watch?v=CTO-8BnzS_s", ctaText: "Watch Now!", description: "This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> ", date: "3 Jan '17", startTime: "10:00 PM ", endTime: "11:00 PM ", location: "YouTube", eventOD: 0};
-webinars[1] = {title: "Webinar: Introduction to Command Line Interface", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> ", date: "13 Jan '17", startTime: "10:00 PM ", endTime: "11:00 PM ", location: "YouTube", eventOD: 0};
-webinars[2]= {title: "Webinar: Open Source Softwares", cta: "https://www.youtube.com/watch?v=JcYABQrAkaU", ctaText: "Watch Now!", description: "Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>", date: "17 Jan '17", startTime: "10:00 PM ", endTime: "10:45 PM ", location: "YouTube", eventOD: 0};
+webinars[0] = {title: "Introduction to Linux", bg: "images/im.JPG", cta: "https://www.youtube.com/watch?v=CTO-8BnzS_s", ctaText: "Watch Now!", description: "<strong>Topics covered:</strong> <br/>Basics of Linux and its terminologies- command lines, principles, every 'Must Know' thing about Linux.<br/><strong>Speaker:</strong> <br/><strong>Anuvrat Parashar:<strong> <a href = \"http://anuvrat.in/\">http://anuvrat.in/</a> ", date: "3 Jan '17", startTime: "10:00 PM ", endTime: "11:00 PM ", location: "YouTube", eventOD: 0};
+webinars[1] = {title: "Introduction to Command Line Interface", bg: "images/im.JPG", cta: "https://www.youtube.com/watch?v=gmi_YM_N2L4", ctaText: "Watch Now!", description: "<strong>Topics covered:</strong> <br/>Basics of using Command Line Interface in Linux, especially Bash and principles to get started with Linux<br/><strong>Speaker:</strong> <br/><strong>Rohit Goyal:<strong> <a href = \"https://about.me/rohitgoyal18\">about.me/rohit</a> ", date: "13 Jan '17", startTime: "10:00 PM ", endTime: "11:00 PM ", location: "YouTube", eventOD: 0};
+webinars[2]= {title: "Open Source Softwares", bg: "images/im.JPG", cta: "https://www.youtube.com/watch?v=JcYABQrAkaU", ctaText: "Watch Now!", description: "<strong>Topics covered:</strong> <br/>A live interactive session on Open Source, Open Source Software and its culture.<br/><strong>Speakers:</strong><br/><strong>Amit Kumar:<strong> <a href = \"http://iamit.in\">http://iamit.in</a> <br/><strong>Garvit Garg:<strong> <a href = \"http://garvitdelhi.blogspot.in\">http://garvitdelhi.blogspot.in</a> <br/><stong>Sanyam Khurana:</strong> <a href=\"http://www.sanyamkhurana.com\">sanyamkhurana.com</a>", date: "17 Jan '17", startTime: "10:00 PM ", endTime: "10:45 PM ", location: "YouTube", eventOD: 0};
+webinars[3] = {title: "Github Tutorial 101", bg: "images/im.JPG", cta: "https://www.youtube.com/watch?v=i6vKEo12KfE&t=1315s", ctaText: "Watch Now!", description: "<strong>Topics covered:</strong> <br/>Brief insight about GitHub and its Workflow. Know about GIT downloads and its machine config @  : https://desktop.github.com/, https://github.com<br/><strong>Speaker:</strong> <br/><strong>Aniket Maithani:<strong> <a href = \"http://aniketmaithani.net/\">http://aniketmaithani.net/</a> ", date: "3 Jan '17", startTime: "10:00 PM ", endTime: "11:00 PM ", location: "YouTube", eventOD: 0};
 
 /** Picture Box
 	url: Link of the cover photo on google photos (For perfect size)
@@ -81,7 +82,7 @@ resource[0]={cta:"https://docs.google.com/document/d/1s3RWKEemXNnCOPb_YyEMFIjC5C
 resource[1]={cta:"https://docs.google.com/document/d/13h5MoQZv4KgnLjkeDiRHjaAZRF-VaUpy-ZN4EltIwiA/edit?usp=sharing",url:"images/Resources/StudyMaterial.jpg", text:"Links to helpful Study Material & Resources."};
 resource[2]={cta:"https://docs.google.com/document/d/1BVU3XOpvL8Gb1Px1VlI_NU018Hoj06aOfp69_NgERjo/edit?usp=sharing",url:"images/Resources/RecCompt.png", text:"Links to events recommended for participation."};
  
-/** Team List 
+/** Team List
 	team[0] = {name:"Test Name 1", designation: "Events Head", ppicUrl: "images/alumni/1.jpg"};
 **/
 team[0] = {name:"Shivam Rajput", designation: "", ppicUrl: "images/team/shivam.jpg"};
@@ -101,7 +102,8 @@ var siteMottoContainer = $(".motto");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
-var siteServicesListContainer = $(".servicesList");
+var siteServicesListContainer1 = $(".servicesList-1");
+var siteServicesListContainer2 = $(".servicesList-2");
 var eventsListContainer = $("#eventsListContainer");
 var webinarsListContainer = $("#webinarsListContainer");
 var alumniDescriptionContainer = $(".alumniDescription p");
@@ -120,13 +122,17 @@ siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 
 /** Generate Services **/
-for(var x in services){
-	var html = '<li class="fa"><span>'+services[x]+'</span></li>';
-	siteServicesListContainer.append(html);
+for(var x in services1){
+	var html = '<li class="fa"><span>'+services1[x]+'</span></li>';
+	siteServicesListContainer1.append(html);
+}
+for(var x in services2){
+	var html = '<li class="fa"><span>'+services2[x]+'</span></li>';
+	siteServicesListContainer2.append(html);
 }
 /** Generate Event Boxes **/
 for (var x in events){
-		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 text-center"><h2>'+events[x].title+'</h2></div></div>';
+		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 img"><img src="'+events[x].bg+'"></div><div class="col-lg-12 text-center h"><h2>'+events[x].title+'</h2></div></div>';
 		if(events[x].cta2enable){
 		html += '<div class="row eventInfo"><div class="col-xs-7 eventDesc"><div class="row eventDescInfo"><div class="col-lg-12"><p style="height: 250px" class="eventDescInfoContainer">'+events[x].description+'</p></div></div></div>';
 		}else{
@@ -136,16 +142,18 @@ for (var x in events){
 		html += '">';
 		html += (events[x].eventOD)?"Yes":"No";
 		html += '</span></div></div></div>';
-		if(events[x].cta2enable){	
+		if(events[x].cta2enable){
 		html +='<div class="row eventCTA"><div class="col-lg-12 text-center"><a href="'+events[x].cta+'" target="_blank"><button>'+events[x].ctaText+'</div></div></div>';
 		}else{
 			html+='<div class="row eventCTA"><div class="col-lg-12 text-center"><a href="'+events[x].cta+'" target="_blank"><button>'+events[x].ctaText+'</div></div><div class="row eventCTA"><div class="col-lg-12 text-center"><a href="'+events[x].cta2+'" target="_blank"><button>'+events[x].cta2Text+'</div></div></div>';
 		}
 		eventsListContainer.append(html);
+		$(".eventTitle").css("background-image","'events[x].bg'")
 }
+
 /** Generate Webinar Boxes */
 for (var x in webinars){
-		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 text-center"><h2>'+webinars[x].title+'</h2></div></div><div class="row eventInfo"><div class="col-xs-7 eventDesc"><div class="row eventDescInfo"><div class="col-lg-12"><p style="height: 260px" class="eventDescInfoContainer">'+webinars[x].description+'</p></div></div></div><div class="col-xs-5 eventTiming text-left"><div class="date"><i class="fa fa-calendar"></i> <span>'+webinars[x].date+'</span></div><div class="startTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].startTime+'</span></div><div class="endTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].endTime+'</span></div><div class="eventLocation"><i class="fa fa-map-marker"></i> <span>'+webinars[x].location+'</span></div><div class="eventOD"><strong>OD</strong> <span class="';
+		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 img"><img src="'+webinars[x].bg+'"></div><div class="col-lg-12 text-center h"><h2>'+webinars[x].title+'</h2></div></div><div class="row eventInfo"><div class="col-xs-7 eventDesc"><div class="row eventDescInfo"><div class="col-lg-12"><p style="height: 260px" class="eventDescInfoContainer">'+webinars[x].description+'</p></div></div></div><div class="col-xs-5 eventTiming text-left"><div class="date"><i class="fa fa-calendar"></i> <span>'+webinars[x].date+'</span></div><div class="startTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].startTime+'</span></div><div class="endTimimg"><i class="fa fa-clock-o"></i> <span>'+webinars[x].endTime+'</span></div><div class="eventLocation"><i class="fa fa-map-marker"></i> <span>'+webinars[x].location+'</span></div><div class="eventOD"><strong>OD</strong> <span class="';
 		html += (webinars[x].eventOD)?"text-success":"text-danger";
 		html += '">';
 		html += (webinars[x].eventOD)?"Yes":"No";
@@ -153,6 +161,12 @@ for (var x in webinars){
 		html +='<div class="row eventCTA"><div class="col-lg-12"><a href="'+webinars[x].cta+'"><button>'+webinars[x].ctaText+'</button></a></div></div></div>';
 		webinarsListContainer.append(html);
 }
+$( ".nextBtn" ).click(function(e) {
+    goRight();
+});
+$( ".backBtn" ).click(function(e) {
+    goLeft();
+});
 
 /** Generate Picture Boxes */
 for (var x in pics){
@@ -172,25 +186,32 @@ for (var x in resource){
 	resourceList.append(html);
 }
 
+function goRight(){ // inner stuff slides left
+    var initalLeftMargin = $( "#webinarsListContainer" ).css('margin-left').replace("px", "")*1;
+    var newLeftMargin = (initalLeftMargin - 385); // extra 2 for border
+    $( "#webinarsListContainer" ).animate({marginLeft: newLeftMargin}, 400);
+}
+function goLeft(){ // inner stuff slides right
+    var initalLeftMargin = $( "#webinarsListContainer" ).css('margin-left').replace("px", "")*1;
+    var newLeftMargin = (initalLeftMargin + 382); // extra 2 for border
+    $( "#webinarsListContainer" ).animate({marginLeft: newLeftMargin}, 400);
+}
 /** Load Alumni **/
 alumniDescriptionContainer.html(alumniDescription);
 
 /** Load Team List **/
 for (var x in team){
-	var html = '<div class="col-lg-2 teamBox box-shadow col-centered">';
-	html+='<div class="teamPhotoContainer horizon-center box-shadow"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div>';
-	html+='<div class="row"><div class="col-lg-32 text-center"><div class="teamInfoContainer">';
+	var html = '<div class="col-lg-2 teamBox col-centered"><div class="TeamGrad">';
+	html+='<div class="teamPhotoContainer horizon-center"><img src="'+team[x].ppicUrl+'" alt="'+team[x].name+'" title="'+team[x].name+'"/></div></div>';
+	html+='<div class="row"><div class="TeamBG"><div class="col-lg-12 text-center"><div class="teamInfoContainer">';
 	html+='<strong><div class="teamName">'+team[x].name+'</div></strong>';
 	html+='<div class="teamDesignation">'+team[x].designation+'</div>';
-	html+='</div></div></div></div>';
+	html+='</div></div></div></div></div>';
 	teamListContainer.append(html);
 }
-
 /** End Team List**/
-
 /** Do Not Change! Still in BETA **/
 var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)
 $(".theme-bg").addClass(siteThemeClassName);
 $(".theme-btn-primary").addClass(siteThemeClassName);
-
 $(".preloader").delay(1000).fadeOut(2000);
