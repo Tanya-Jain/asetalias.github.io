@@ -11,7 +11,7 @@ var siteMotto = "";
 var showFlashBox = 0;
 var flashBoxContent = '<a href="https://www.facebook.com/events/1873570922897377/" target="_blank"><img src="images/flashbox/poster02032017.jpg"></a>';
 var flashBoxEndDate = new Date(2017,02,01); //It will end at 03/03/2017 00:00 P.S. Month starts from 0
-/** Intro Section **/
+
 /** Intro Section **/
 var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.";
 var joinNowBtnLink = "https://goo.gl/forms/mkBRe8jA5pJlexaK2";
@@ -31,8 +31,9 @@ var team = [];
 	Do you want to participate in Google Summer of code?
 	Do you want to be a part of hacker culture?
 	Do you have fun while learning?
-	Do you want  to learn trending technologies?
-	Do you want learn Linux and peripheral technologies?
+	Do you want  to learn trending technologies ?
+	Do you want learn Linux and peripheral technologies ?
+
 	Credits: Ajay Tripathi
 **/
 
@@ -57,6 +58,7 @@ services2[2] = "ALiAS welcomes each and every student of amity irrespective of t
 	endTime: Event End Time
 	location: Event Location
 	eventOD: 0 for NO, 1 for YES. The text and respective classes are automatically added by the script
+
 	events[0] = {title: "", cta: "", ctaText: "",cta2: "", cta2Text: "", description: "", date: "", startTime: "", endTime: "", location: "", eventOD: 0};
 
 **/
@@ -109,6 +111,7 @@ navbarLogoContainer.attr("src",navbarLogoUrl); //Update logo on navigation
 
 siteMottoContainer.html(siteMotto);
 siteAboutContainer.html(siteAbout);	//Update Site About
+
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 
@@ -137,6 +140,7 @@ for(var x in services2){
 	var html = '<li class="fa"><span>'+services2[x]+'</span></li>';
 	siteServicesListContainer2.append(html);
 }
+
 /** Generate Event Boxes **/
 for (var x in events){
 		var html = '<div class="col-lg-3 eventBox col-centered text-center"><div class="row eventTitle"><div class="col-lg-12 img"><img src="'+events[x].bg+'"></div><div class="col-lg-12 text-center h"><h2>'+events[x].title+'</h2></div></div>';
