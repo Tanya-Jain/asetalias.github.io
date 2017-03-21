@@ -26,3 +26,82 @@
 	background: -moz-linear-gradient(top right, #FFFF00, #00C853); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to top right, #FFFF00, #00C853); /* Standard syntax */
 }
+/**More colors without Name**/
+.button-color-1{
+	background-color: #ff1112;
+}
+.button-color-1:hover{
+	background-color: #FF3216;
+}
+.button-color-2{
+	background-color: #FF5500;
+}
+.button-color-2:hover{
+	background-color: #FF691E;
+}
+.button-color-3{
+	background-color: #FFD500;
+}
+.button-color-3:hover{
+	background-color: #FFDB27;
+}
+.button-color-4{
+	background-color: #A5FF00;
+}
+.button-color-4:hover{
+	background-color: #B2FF24;
+}
+.button-color-5{
+	background-color: #68FF00;
+}
+.button-color-5:hover{
+	background-color: #82FF2C;
+}
+.button-color-6{
+	background-color: #00FF92;
+}
+.button-color-6:hover{
+	background-color: #31FFA7;
+}
+.button-color-7{
+	background-color: #00FFFF;
+}
+.button-color-7:hover{
+	background-color: #5FFFFF;
+}
+.button-color-8{
+	background-color: #00A5FF;
+}
+.button-color-8:hover{
+	background-color: #37B8FF;
+}
+.button-color-9{
+	background-color: #6810FF;
+}
+.button-color-9:hover{
+	background-color: #792BFF;
+}
+.button-color-10{
+	background-color: #FF006D;
+}
+.button-color-10:hover{
+	background-color: #FF1E7E;
+}
+.button-color-11{
+	background-color: #FF005E;
+}
+.button-color-11:hover{
+	background-color: #FF2B79;
+}
+.button-color-12{
+	background-color: #FF002F;
+}
+.button-color-12:hover{
+	background-color: #FF264E;
+}
+.button-color-13{
+	background-color: #1ABC9C;
+}
+.button-color-13:hover{
+	background-color: #48C9B0;
+}
