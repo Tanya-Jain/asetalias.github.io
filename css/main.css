@@ -804,6 +804,7 @@ a.page-scroll:active {
 }
 /** Alumni Section **/
 #alumni{
+	width: 100%;
 	background:#4c667f;
 	box-shadow:inset 0px 1px 9px 5px #000;
 	padding-bottom:50px;
