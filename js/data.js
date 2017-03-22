@@ -123,22 +123,6 @@ siteAboutContainer.html(siteAbout);	//Update Site About
 siteAboutHistoryContainer.html(siteAboutHistory);
 joinNowBtnLinkContainer.attr("href",joinNowBtnLink);
 
-/** Load and enable FlashBox **/
-
-if(showFlashBox){
-	if(flashBoxEndDate.getFullYear()>=currentDate.getFullYear()){
-		if(flashBoxEndDate.getMonth()>=currentDate.getMonth()){
-			if(flashBoxEndDate.getDate()>=currentDate.getDate()){
-				flashBoxContentContainer.html(flashBoxContent);
-				flashBox.fadeIn();
-			}
-		}
-	}
-
-}
-flashBoxCloseBtn.click(function(e){
-	flashBox.fadeOut();
-});
 /** Generate Services **/
 for(var x in services1){
 	var html = '<li class="fa"><span>'+services1[x]+'</span></li>';
