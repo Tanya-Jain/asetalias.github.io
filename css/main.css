@@ -302,6 +302,7 @@ a.page-scroll:active {
 	min-width: 50px;
 	padding: 5px 10px 5px 10px;
 }
+
 /** Cover Section **/
 #home {
 	height: 100%;
@@ -367,6 +368,7 @@ a.page-scroll:active {
 #home .scrollIcon{
 	padding:0px;
 }
+
 @media all and (max-width:768px){
 	#home .absolute-center{
 		width:290px;
@@ -480,6 +482,7 @@ a.page-scroll:active {
 	left: 0;
 	right: 0;
 }
+
 .eventTitle {
 	width: inherit;
 	overflow: hidden;
@@ -499,7 +502,6 @@ a.page-scroll:active {
 	position: absolute;
 	vertical-align: middle;
 }
-
 .eventTitle img{
 	width:inherit;
 	height:150px;
@@ -511,7 +513,6 @@ a.page-scroll:active {
 	position: absolute;
 	vertical-align: middle;
 }
-
 .eventTitle h2{
 	font-size:24px;
 	font-family: 'Libre Baskerville', sans-serif;
@@ -538,7 +539,6 @@ a.page-scroll:active {
 	text-align: left;
 	overflow: hidden;
 }
-
 .eventDescInfo .eventDescInfoContainer{
 	text-align:left;
 	overflow-x:hidden;
@@ -578,7 +578,6 @@ a.page-scroll:active {
 .UpcomingEvents {
 	display: inline-flex;
 }
-
 .UpcomingEvents hr{
 	border-top: 10px solid #000;
 	width: 125px;
@@ -834,7 +833,6 @@ a.page-scroll:active {
 .alumni-section h1{
 	text-shadow: 2px 2px 2px #fff;
 }
-
 .alumniDescription{
 	padding:20px;
 	padding-left: 50px;
@@ -918,7 +916,6 @@ a.page-scroll:active {
 	height: 100px;
 	width: 100px;
 }
-
 .teamInfoContainer{
 	margin: 5px;
 	padding-top: 55px;
