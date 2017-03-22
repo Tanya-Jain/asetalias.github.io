@@ -224,7 +224,7 @@ button{
 	float: left;
 	display: inline;
 }
-/** Color definitions (A step to implement color chooser) **/
+/** Color definitions (A step to implement color chooser)
 .theme-bg.green {
 	background: #1BBC9B;
 }
@@ -249,13 +249,20 @@ button{
 	background: #1BBC9B;
 	color: #000;
 }
-/** Color Definitions End **/
+Color Definitions End **/
 
 /** Navigation Bar **/
 .navbar {
 	padding: 5px 0px;
-	background-color: transparent!important;
+	background-color: transparent;
 	border: none;
+}
+.colorChange{
+	background-color: rgba(1,1,1,0.8)!important;
+	color: #fff!important;
+}
+.colorChange:hover{
+	color: #fff!important;
 }
 .logoContainer {
 	margin: 0px 5px;
@@ -267,44 +274,31 @@ button{
 	padding: 0;
 	width: 150px;
 	height: auto;
+	margin: 5px 20px 5px 10px;
 }
 .iconMed {
 	font-size: 36px;
-	color: #fff;
 }
 .navigation-links {
 	margin: auto;
 }
-.navbar-default .navbar-nav > .active > a {
-	background-color: #4DD0E1!important;
-}
 a.page-scroll {
 	font-family: 'Cinzel', sans-serif;
-	margin-top: 5px;
+	margin-top: 10px;
 	font-size: 22px;
 	font-weight: 800;
-	color: #546E7A!important;
 }
 a.page-scroll:hover {
 	border-bottom: 4px solid #3949AB;
 	font-size: 24px;
-	color: #212121!important;
+	color: #000;
 }
 a.page-scroll:active {
 	border-bottom: 4px solid blue;
-	color: #212121!important;
-}
-a.page-scroll img {
-	height: 50px;
-	width: auto;
-}
-a.page-scroll img:hover {
-	height: 60px;
-	width: auto;
+	color: #fff;
 }
 
 .Btn, button {
-
 	min-width: 50px;
 	padding: 5px 10px 5px 10px;
 }
@@ -316,6 +310,7 @@ a.page-scroll img:hover {
 	transform: translate3d(0,0,-1px);
 	background-image: url("../images/hello.gif");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #home .container{
@@ -471,7 +466,6 @@ a.page-scroll img:hover {
 	color: #fff;
 	text-align: center;
 	box-shadow: 4px 4px 4px #000;
-	background: #fff;
 }
 
 @media all and (max-width:299px){ 	.eventBox{ 		display:none; 	} }

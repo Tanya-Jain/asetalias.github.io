@@ -35,6 +35,17 @@ flashBoxCloseBtn.click(function(e){
 	flashBox.fadeOut();
 });
 
+$(document).ready (function () {
+ $(window).scroll (function () {
+    var sT = $(this).scrollTop();
+        if (sT >= 500) {
+            $('.navbar').addClass('colorChange')
+        }else {
+            $('.navbar').removeClass('colorChange')
+        }
+  })
+})
+
 /**Button Random Color**/
 var colors = ['Amber','Lime','Green','Light-Blue','Blue','Purple','Red','Pink','Deep-Orange','color-1','color-2','color-3','color-4','color-5','color-6','color-7','color-8','color-9','color-10','color-11','color-12','color-13'];//Add color name from the colors.css file in this box to add/remove it from random function. 
 var random_color = 'Blue';
