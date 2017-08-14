@@ -1,28 +1,15 @@
-.button-Lime{
-	background: #CDDC39; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
+.text-yellow{
+	color: #F1CF27;
 }
-.button-Purple{
-	background: #AB47BC; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #AB47BC, #311B92); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #AB47BC, #311B92); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #AB47BC, #311B92); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #AB47BC, #311B92); /* Standard syntax */
+.text-green{
+	color: #019875; /** Green Haze **/
 }
-.button-Blue{
-	background: #039BE5; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #039BE5, #311B92); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #039BE5, #311B92); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #039BE5, #311B92); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #039BE5, #311B92); /* Standard syntax */
+.text-blue{
+	color: #4183D7; /** Royal Blue **/
 }
-.button-Lime:hover,.button-Purple:hover,.button-Blue:hover {
-	background: #FFFF00; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #FFFF00, #00C853); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #FFFF00, #00C853); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #FFFF00, #00C853); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #FFFF00, #00C853); /* Standard syntax */
+.text-red{
+	color: #C0392B; /** Tall Poppy **/
+}
+.text-grey{
+	color: #BDC3C7; /** Silver Sand**/
 }
