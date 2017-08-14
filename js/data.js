@@ -1,25 +1,32 @@
 /** Site Description **/
-var logoUrl = "images/logo.png";
-var siteTitle = "ALiAS";
-var siteAbout = "Amity Linux Assistance Sapience";
-var siteMotto = "";
+var logoUrl = "";
+var siteTitle = "";
+var siteAbout = "";
 
+var logoDarkLink = "images/logo-dark.png";
+var logoLightLink = "images/logo-light.png";
 /** Intro Section **/
-var siteAboutHistory = "<p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.<\p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer";
-var joinNowBtnLink = "https://goo.gl/forms/mZAhlJMxqCwZVbRK2";
+var siteAboutHistory = "";
+var joinNowBtnLink = "";
+
+
+var currentDate = new Date();
+
+/** FlashBox **/
+var flashbox;
 
 /** Alumni Section **/
-var alumniDescription = "Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain.";
-
-/**Rankers List**/
-var rankers = {name1:"Sample", ppicUrl1: "images/alumni/1.jpg",rank1:"0000", name2:"Sample", ppicUrl2: "images/alumni/1.jpg",rank2:"0000", name3:"Sample", ppicUrl3: "images/alumni/1.jpg",rank3:"0000"};
+var alumniDescription = "";
 
 /** Array Definitions**/
 var services1 = [];
 var services2 = [];
 var events = [];
 var webinars = [];
+var openSource = [];
+var eventsP = [];
 var team = [];
+<<<<<<< HEAD
 var pics = [];
 var resource = [];
 
@@ -95,11 +102,13 @@ team[6] = {name:"Manas Kashyap", designation:"", ppicUrl: "images/team/manas.jpg
 team[7] = {name:"Animesh Verma", designation: "", ppicUrl: "images/team/animesh.jpg"};
 
 /** End Team List **/
+=======
+var contactLinks = [];
+var communitiesDetailed = [];
+>>>>>>> 79d3a8b15e7b7b2d2e8550d5faf3079c7f902412
 
 /** Containers **/
-var coverLogoContainer = $(".coverLogo");
-var navbarLogoContainer = $("#navbarLogo");
-var siteMottoContainer = $(".motto");
+var logoContainer = $(".logo");
 var siteAboutContainer = $(".siteAboutContainer");
 var siteAboutHistoryContainer = $(".siteAboutHistory .description");
 var joinNowBtnLinkContainer = $(".joinNowBtnLink");
@@ -108,7 +117,10 @@ var siteServicesListContainer2 = $(".servicesList-2");
 var eventsListContainer = $("#eventsListContainer");
 var webinarsListContainer = $("#webinarsListContainer");
 var alumniDescriptionContainer = $(".alumniDescription p");
+var openSourceContainer = $("#openSourceListContainer");
+var eventsPListContainer = $("#eventsParticipateListContainer");	
 var teamListContainer = $(".teamList");
+<<<<<<< HEAD
 var PastEventPics = $("#pastEventPicsContainer");
 var RankersList = $("#RankersListContainer");
 var resourceList = $("#resourceListContainer");
@@ -216,3 +228,11 @@ var siteThemeClassName ="blue"; //blue, green, red, yellow (Use Blue for now)
 $(".theme-bg").addClass(siteThemeClassName);
 $(".theme-btn-primary").addClass(siteThemeClassName);
 $(".preloader").delay(1000).fadeOut(2000);
+=======
+var contactLinksContainer = $(".contactLinksContainer");
+/**Flashbox Containers */
+var flashboxContainer = $(".flashbox");
+var flashboxContentContainer = $(".flashBox-content");
+var flashboxCloseBtn = $(".flashbox .closeBtn");
+/** End Containers **/
+>>>>>>> 79d3a8b15e7b7b2d2e8550d5faf3079c7f902412

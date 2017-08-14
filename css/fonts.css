@@ -1,0 +1,65 @@
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Dosis');
+.minScreenSizeOverlay .content{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.preloader .preloader-content .loading-text{
+    font-family: 'Dosis', sans-serif;
+    font-weight:300;
+}
+#mainHeader li>a{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300 !important;
+    font-size: 1em;
+}
+section .section-header{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+#home .slide h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+p.description, .servicesList li{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+.servicesList li{
+    font-size: 1.3em;
+}
+#intro .section-header{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+#intro .heading{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+.youtubeVideoTitleContaier h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+#alumni .alumniDescription p{
+    font-family: 'Pacifico', cursive;
+}
+.teamBox .teamName{
+    font-size:1.7em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+.teamBox .teamDesignation{
+    font-size:1.4em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+.contactLinksContainer li a{
+    font-style: 'Dosis', sans-serif;
+    font-weight: 300;
+}
