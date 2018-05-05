@@ -85,7 +85,7 @@ function checkFlashBox(){
 function loadServices(){
 	/** Generate Services **/
 	for(var x in services){
-		var html = '<li><i class="fa fa-code-fork text-danger"></i><span>'+services[x]+'</span></li>';
+		var html = '<li><i class="fa fa-code-fork decorColor"></i><span>'+services[x]+'</span></li>';
 		siteServicesListContainer.append(html);
 	}
 }
@@ -94,19 +94,18 @@ function generateEventBoxes(){
 	/** Generate Event Boxes **/
 	for (var x in events){
 		var html = '<div class="slide col-xs-3 eventBox col-centered text-center" id="eventBox-'+x+'">';
-		html += '<div class="row eventTitle"><div class="col-lg-12 text-center"><h2>'+events[x].title+'</h2></div></div>';
-		html += '<div class="row eventInfo"><div class="col-xs-7 eventDesc"><div class="row eventDescInfo"><div class="col-lg-12"><p class="eventDescInfoContainer">'+events[x].description+'</p></div></div></div>';
+		html += '<div class="eventTitle"><div class="row"><div class="col-xs-7 text-center"><h2>'+events[x].title+'</h2></div>';
 		html += '<div class="col-xs-5 eventTiming text-left">';
-		html += '<div class="date"><i class="fa fa-calendar"></i> <span><strong>'+events[x].date+'</strong></span></div>';
-		html += '<div class="startTimimg"><i class="fa fa-clock-o"></i> <span><strong>'+events[x].startTime+'</strong></span></div>';
-		html += '<div class="endTimimg"><i class="fa fa-clock-o"></i> <span><strong>'+events[x].endTime+'</strong></span></div>';
-		html += '<div class="eventLocation"><i class="fa fa-map-marker"></i> <span><strong>'+events[x].location+'</strong></span></div>';
-		html += '<div class="eventOD"><strong>OD</strong> <span class="';
+		html += '<div class="date"><i class="fa fa-calendar"></i> <span>'+events[x].date+'</span></div>';
+		html += '<div class="startTimimg"><i class="fa fa-clock-o"></i> <span>'+events[x].startTime+'-'+events[x].endTime+'</span></div>';
+		html += '<div class="eventLocation"><i class="fa fa-map-marker"></i> <span>'+events[x].location+'</span></div>';
+		html += '<div class="eventOD">OD <span class="';
 		html += (events[x].eventOD)?"text-success":"text-danger";
 		html += '">';
 		html += (events[x].eventOD)?"Yes":"No";
 		html += '</span></div>';
-		html += '</div></div>';    //closes eventTiming and eventInfo
+		html += '</div></div></div>';    //closes eventTiming and eventInfo
+		html += '<div class="row eventInfo"><div class="col-lg-12 eventDesc eventDescInfo"><p class="eventDescInfoContainer">'+events[x].description+'</p></div></div>';
 		if(events[x].cta2enable){	
 			html += '<div class="row eventCTA"><div class="col-xs-6 text-center"><a href="'+events[x].cta+'" target="_blank"><button class="btn btn-danger btn-lg">'+events[x].ctaText+'</button></a></div>';
 			html += '<div class="col-xs-6 text-center"><a href="'+events[x].cta2+'" target="_blank"><button class="btn btn-primary btn-lg">'+events[x].cta2Text+'</button><a></div>';

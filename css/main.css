@@ -14,7 +14,7 @@ body{
 h1.heading{
     text-decoration: underline;
 }
-.underline{
+/*.underline{
     text-decoration: underline; 
 }
 /**Fix for white space**/
@@ -119,6 +119,7 @@ a:hover {
 .background-overlay-20::before{
 	background: rgba(0,0,0,0.2);
 }
+/*
 .bottom-border{
 	display: inline-block;
 	position: relative;
@@ -156,6 +157,7 @@ a:hover {
 .bottom-border-white::after{
 	background: #FFF;
 }
+*/
 .hover-opacity{
 	opacity: 0.6;
 	transition: 0.5s;

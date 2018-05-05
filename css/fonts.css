@@ -1,5 +1,9 @@
 /** Fonts **/
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Galada|Prata|Tangerine|Goudy+Bookletter+1911');
+body{
+    font-family: 'Quick Sand';
+}
 .minScreenSizeOverlay .content{
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
@@ -18,18 +22,35 @@ h1{
     font-size: 1em;
 }
 section .section-header{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Prata', sans-serif;
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 #home .slide h1{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 700;
+    font-family: 'Galada', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
 }
 p.description, .servicesList li{
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
     font-size: 1.4em;
+}
+#home .slide p.description{
+	font-size: 1.4em;
+}
+@media all and (max-width:768px){
+	#home .slide .slideHeader h1{
+		font-size: 45px;
+	}
+}
+@media all and (min-width:1200px){
+	#home .slide .slideHeader h1{
+		font-size: 60px;
+	}
+}
+.eventTiming{
+    font-size: 13px;
 }
 .servicesList li{
     font-size: 1.3em;
@@ -47,7 +68,7 @@ p.description, .servicesList li{
     font-weight: 400;
 }
 #alumni .alumniDescription p{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 .teamBox .teamName{
     font-size:1.7em;
