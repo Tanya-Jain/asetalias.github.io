@@ -1,15 +1,9 @@
-.decorColor {
-	color: yellow;
-}
-
 /** Min Screen Size Overlay Styles **/
 .minScreenSizeOverlay{
 	position:fixed;
 	width:100%;
 	height:100%;
 	z-index:99999;
-	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
-	background:#ECF0F1;
 }
 .minScreenSizeOverlay .contentContainer{
 	position:relative;
@@ -21,7 +15,6 @@
 	top: 50%;
 	margin-top: -100px;
 	width:100%;
-	font-size: 20px;
 }
 @media all and (min-width:300px){
 	.minScreenSizeOverlay{
@@ -36,7 +29,6 @@
 	width:100%;
 	height:100%;
 	z-index:99999;
-	background:#000;
 }
 .preloader .content{
 	position:relative;
@@ -50,17 +42,11 @@
 	margin:auto;
 	left:0;right:0;
 	top:0;bottom:0;
-	color:rgba(255,255,255,0.9);
-	font-size:40px;
 	animation-name:blinking-text;
 	animation-duration:1s;
 	animation-timing-function:linear;
 	animation-direction:alternate;
 	animation-iteration-count:infinite;
-}
-.preloader .preloader-content .loading-text{
-	color:rgba(255,255,255,0.6);
-	font-size: 25px;
 }
 /**FlashBox**/
 .flashbox{
@@ -69,7 +55,6 @@
 	top:0;left:0;
 	width:100%;
 	height:100%;
-	background:rgba(0,0,0,0.5);
 	z-index:9999;
 	text-align:center;
 }
@@ -86,8 +71,6 @@
 	position:absolute;
 	top:0;right:2px;
 	cursor:pointer;
-	color:#FFF;
-	font-size:25px;
 	z-index:3;
 }
 .flashbox .flashBox-content{
@@ -126,12 +109,6 @@
     height: 700px;
     width: 100%;
 }
-.slick-dark .slick-dots li button{
-	box-shadow: 0 0 0;
-}
-.slick-dark .slick-dots li button::before{
-	color:#FFF;
-}
 /** Slick Slider Custom Styles End **/
 /** Page Styles Start **/
 #contentWrap{
@@ -145,12 +122,11 @@
 .container{
     max-width: 100%;
 }
+.headerContainer{
+	width: 100%;
+}
 button{
-	border:none;
-	box-shadow:1px 1px 2px #000;
-	padding:10px;
-    background: transparent !important;
-    color: #FFF;
+		padding:10px;
     margin: 0px 5px;
 }
 img.logo-med{
@@ -163,19 +139,7 @@ img.logo-sm{
     width: auto;
     height: auto;
     max-height:50px;
-    max-width: 100px; 
-}
-img.logo-lg{
-	width: 300px;
-	height: auto;
-}
-@media all and (min-width:768px){
-	img.logo-lg{
-		width: 400px;
-	}
-}
-.iconMed{
-    font-size:24px;
+    max-width: 100px;
 }
 .animated-pulse{
 	animation-name: animated-pulse;
@@ -186,92 +150,62 @@ img.logo-lg{
 }
 /** Header : Default Layout**/
 #mainHeader{
-	position: fixed;
-	top: 0;
-	left: 0;
-    background: #FFF;
+		position: fixed;
+		top: 0;
+		left: 0;
     text-align: left;
-    font-size: 16px;
-	padding:0px 10px;
-    box-shadow: 0px 0px 5px #000;
-	width: inherit;
-	z-index: 9998;
-	transition: 0.3s;
+		padding:10px 10px 10px 50px;
+		width: inherit;
+		z-index: 9998;
+		transition: 0.3s;
 }
 #mainHeader .navbar>.container{
-	width: 100%;
+		width: 100%;
 }
 /** Custom Styles for Bootstrap Navigation **/
-#mainHeader .navbar-toggle{
-	position: absolute;
-	top:4px;right: 0;
-	border: none;
-	box-shadow: 0 0 0;
-	background: rgba(255,255,255,0.5);
-	color: rgba(0,0,0,0.7);
-	font-size: 20px;
-	padding:4px 9px;
-}
 #mainHeader .navbar{
     width: 100%;
-    min-height: 30px;
-    overflow: hidden;
-    margin: 7px auto;
+    max-height: 50px;
+    overflow: visible;
+    margin: 0px auto;
     box-shadow: none;
     padding: 0;
     border: none;
     background: transparent;
 }
+#mainHeader .navbar ul{
+		padding: 0px 0px 10px 20px;
+}
 #mainHeader .navbar li{
-    padding:5px;
+    padding:0px;
     float: none;
     list-style-type: none;
     display: block;
     width:auto;
     text-align: center;
     margin:0;
-	background: transparent;
+		background: transparent;
 }
 #mainHeader .navbar li a{
     padding: 0;
-	background: transparent;
-	transition: 0.5s;
-}
-#mainHeader .navbar li a:hover{
-	color: #000;
-}
-#mainHeader .navbar-default .navbar-nav>li>a.active{
-	color:#000;
-	padding-bottom: 5px;
-    border-bottom: 3px solid #000;
+		background: transparent;
+		transition: 0.5s;
 }
 @media all and (min-width:300px){
 	#mainHeader .navbar-nav{
 		padding-top: 0.8%;
+		margin: 0;
 	}
 	#mainHeader .navbar li{
 		width: 100%;
 	}
-	#mainHeader .navbar li>a{
-		color: #000;
-	}
 }
 @media all and (min-width:768px){
-    #mainHeader .navbar-toggle{
-        display: none;
-    }
     #mainHeader .navbar li{
         width: auto;
         display: inline;
 		padding:2px 0px;
     }
-	#mainHeader a{
-		color: #FFF;
-	}
-	#mainHeader .navbar-nav{
-		padding-top
-	}
-
 }
 @media all and (min-width: 992px){
 	#mainHeader .navbar li{
@@ -295,20 +229,6 @@ img.logo-lg{
 }
 /** End Header: Default Layout **/
 /** Header: Sticky Layout **/
-/**
-#mainHeader.mainHeaderLayout1{
-    position:fixed;
-    top:0;
-    z-index:4;
-    width:inherit;
-   
-}
-**/
-#mainHeader #mainNav>div>.row{
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-}
 #mainHeader .navbar li{
     float: left;
     margin-left: 5px;
@@ -317,8 +237,8 @@ img.logo-lg{
 #mainHeader .logo{
     width: 130px;
     height: auto;
-    margin:7px 0px;
-    padding: 1px;
+    margin:4px 0px;
+    padding: 0px;
     box-sizing: content-box;
 }
 @media all and (min-width:1200px){
@@ -326,104 +246,65 @@ img.logo-lg{
 		width:150px;
 	}
 }
-#mainHeader .navigationContainer{
-    float: right;
-}
 /** Header Styles End **/
 #mainHeader.mainHeaderLayout1{
-	position: fixed;
-	background: transparent;
-	top:0;left:0;
-	width: inherit;
-	box-shadow: none;
-	color: #FFF;
-	padding-top: 10px; 
+		position: fixed;
+		background: transparent;
+		top:0;left:0;
+		width: inherit;
+		box-shadow: none;
+		padding-top: 10px;
 }
 #mainHeader.mainHeaderLayout1 .navbar li{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
 }
-#mainHeader.mainHeaderLayout1 .navbar li>a{
-	color: rgba(255,255,255,0.8);
-}
-#mainHeader.mainHeaderLayout1 .navbar li>a:hover{
-	color: #FFF;
-}
 @media all and (max-width:767px){
 	#mainHeader.mainHeaderLayout1 .navbar-collapse{
 		background: rgba(255,255,255,0.9);
-	}	
-	#mainHeader.mainHeaderLayout1 .navbar li>a{
-		color: rgba(0,0,0,0.8);
 	}
-	#mainHeader.mainHeaderLayout1 .navbar li>a:hover{
-		color: #000;
-	}
-
 }
 /** Section Default Styles **/
 section{
-	width: 100%;
-	margin: 0;
-    padding-bottom: 10px; 
+		width: 100%;
+		margin: 0;
+    padding-bottom: 40px;
 }
 section .container{
     width: inherit;
 }
-section .headerContainer{
-    width: 55%;
-    clear: inherit;
-	margin:60px 0px 50px 0px;
+section .section-header, h1 {
+	padding: 20px 0px;
 }
-@media all and (max-width:768px){
-    section .headerContainer{
-        width: 100%;
-    }
-}
-section .section-header{
-    background: transparent;
-    color: rgba(255,255,255,0.9);
-    font-size: 30px;
-	padding:0px 20px;
-	left:0;right:0;
-    box-shadow: 0 0 0;
+section .section-header, h1, h2, p {
+	width: 100%;
 }
 /** Section Styles End **/
 
 /** Home Styles **/
 #home{
     width: inherit;
-	height: 100vh;
+		height: 100vh;
     overflow: hidden;
-	margin-top:0; 
+		margin-top:0;
 }
 #home .container{
     padding: 0;
-	height: inherit;
+		height: inherit;
 }
 #home .slide{
-	color: #FFF;
-	height: 100vh;
-	background-size: cover;
-	background-position: center; 
-	background-attachment: fixed;
-	overflow: hidden;
-	position: relative;
-}
-#home .slide .container::before{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.4);
+		height: 100vh;
+		background-position: center;
+		overflow: hidden;
+		position: relative;
 }
 #home .slide .slideContent{
 	position: absolute;
 	width: 100%;
 }
-#home .slide .slideHeader h1{
-	font-size: 50px;
+#home .slideContent h1, #home .slideContent p{
+	width: 100%;
 }
 #home .slide button{
 	width:30%;
@@ -435,31 +316,9 @@ section .section-header{
 /** End Home Styles **/
 
 /** Intro Section **/
-#intro{
-    background: #2f2f2f;
-    color: #FFF;
-    background-attachment: fixed;
-    background-size: cover;
-}
-#intro .headerContainer{
-	width: 100%;
-}
-#intro .section-header{
-    color: #FFF;
-    font-size: 45px;
-    background: transparent;
-    box-shadow: 0 0 0;
-    margin-top:20px; 
-	text-transform: none;
-}
-#intro p.description{
-	color: #a2a2a2;
-}
 #intro .servicesList li{
     position: relative;
-    color: #a2a2a2;
-    font-size: 16px;
-	padding-left:18px;
+		padding-left:18px;
 }
 #intro .servicesList li .fa{
     position: absolute;
@@ -476,43 +335,35 @@ section .section-header{
     box-sizing: content-box;
 }
 #intro .heading{
-    font-size: 26px;
     padding: 0;
 }
+#intro .joinNowBtn {
+		border-radius: 50px;
+}
+#intro .joinNowBtnLink {
+		width: 100%;
+}
+
 @media screen and (max-width:768px){
 	/** Mobile devices **/
 	#intro .section-header{
 		text-align: center;
 	}
-	#intro .siteAboutContainer{
-		font-size:30px;
-	}
     #intro .heading{
-        font-size: 26px;
         padding: 0;
         text-align: center;
     }
 }
-@media screen and (max-width:400px){
-	#intro .heading{
-		font-size:22px; 
-	}
-}
+
 /** Intro Section End **/
 
 /** Events Section **/
 #events{
     background: url("../images/upcomingEvents.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    color: #000;
-    /** width: inherit;**/
     overflow: hidden;
-    padding-bottom: 50px;
 }
 #upcomingEventsHeader{
-    padding: 0px 0;
-    color: inherit;
+    padding: 5px 0;
 }
 #events .eventsList{
 	min-width:220px;
@@ -520,74 +371,87 @@ section .section-header{
 	left:0;right:0;
 }
 .eventBox,
-.youtubeBox{
-	height: 420px;
+.youtubeBox,
+.projectBox{
+	min-height: 420px;
 	width: 340px;
 	max-width: 340px;	/** fix for Slick Slide CSS **/
-	background:#F2F1EF;
-	box-shadow:2px 2px 15px #979696;
+	margin:10px 20px;
+	padding:0px;
 	box-sizing:border-box;
-	color:#000;
-	padding: 0 !important;
 	text-align:center;
 	top:0;bottom: 0;
 }
 /** Event Box Styles **/
-.eventBox div{
-	margin:0;
+.eventBox>div,
+.projectBox>div{
+	margin:auto;
 	left:0;right:0;
 }
-.eventTitle{
-	height:100px;
-	width:inherit;
+.eventBox .eventThumb,
+.projectBox .projectThumb{
+	position: relative;
+	width: 100%;
+	height: 191px;
+	overflow: hidden;
+}
+.eventBox .eventThumb img,
+.projectBox .projectThumb img{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+}
+.eventTitle,
+.projectTitle{
+	max-height:98px;
+	width:100%;
 	overflow:hidden;
 	margin-bottom: 1px;
-	background-color: #2AA4D3;
-	padding: 10px;
+	padding-top: 8px;
 }
 
 .eventBox .eventDesc,
-.eventBox .eventDescInfo{
-	padding: 15px;
+.projectBox .projectDesc,
+.projectBox .projectDescInfo{
 	text-align:left;
+	padding: 0px 0px 0px 10px;
 }
-.eventBox .eventDescInfo .eventDescInfoContainer{
-	height:225px;
-	text-align:left;
-	overflow-x:hidden;
+.eventBox .eventDesc{
 	overflow-y:hidden;
 }
-.eventBox .eventDescInfo .eventDescInfoContainer:hover{
-	overflow-y:auto;
-	overflow-x:auto;
+.eventBox .eventTiming>div{
+	position: relative;
+	padding-left: 1em;
+}
+.eventBox .eventTiming>div>i.icon{
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom: 0;
+	width: 1em;
+	height: 1em;
+	margin: auto;
+	text-align: center;
 }
 .eventBox .eventCTA{
-	bottom:5px;
+	position: absolute;
+	bottom:0;
 	width:100%;
+	margin-top: 10px;
 }
 .eventBox .eventCTA div{
 	float:left;
-	margin:auto;
-	top:0;
-	bottom:0;
-	padding: 2px;
+	margin:0;
+	padding: 0px;
 }
 .eventBox .eventCTA button{
-	text-align: center;
 	width:100%;
-	font-weight:600;
-	font-size:18px;
-	margin-bottom: 10px;
-	color:#FFF;
-	padding:7px 2px;
-}
-.eventBox .event-buttons{
-	margin-right: 15px;
-	box-shadow:2px 3px 3px #000;
-	font-weight: 600;
-	font-size: 16px;
-	margin-top:20px;
-	color:#FFF;
+	margin:0;
 }
 /** End Event Box Styles **/
 /** Youtube Box Styles **/
@@ -602,9 +466,20 @@ section .section-header{
 	position: relative;
 	height:191px;	/** it should be calculated as (width of parent)*9/16 **/
 }
+.youtubeBox .youtubeVideoTitleContainer{
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	padding-top: 5px;
+}
+.youtubeVideoTitleContainer h2 a{
+	padding: 5px;
+	top: -20px;
+}
 .youtubeBox .youtubeVideoContainer img{
 	width:100%;
 	height: 100%;
+	filter: contrast(120%);
 }
 .youtubeBox .youtubeVideoContainer .video-overlay{
 	width:100%;
@@ -621,74 +496,42 @@ section .section-header{
 	height:188px;
 	overflow:hidden;
 }
-.youtubeBox .youtubeVideoTitleContainer{
-	height:60px;
-	overflow:hidden;
-}
 .youtubeBox .youtubeVideoDescContainer{
 	width:100%;
-	height:130px;
+	height:inherit;
+	padding-top: 20px;
 	overflow:hidden;
-}
-.youtubeBox .youtubeVideoDescContainer:hover{
-	overflow-y:scroll;
-	overflow-x:scroll;
 }
 /** End Youtube Box Styles **/
 @media all and (max-width:299px){
 	.eventBox,
-	.youtubeBox{
+	.youtubeBox,
+	.projectBox{
 		display:none;
 	}
 }
 @media all and (min-width:300px) and (max-width:768px){
-	.eventBox, .youtubeBox{
+	.eventBox, .youtubeBox,
+	.projectBox{
 		width:250px;
 		margin:10px 2px;
 	}
 	.youtubeBox>div>div{
-		height:140px;
+		font-size:12px;
+		font-weight: 400;
 	}
 }
-/** Common Styles for Youtube and Event Box **/
-.eventTitle h2,
-.youtubeVideoTitleContainer h2{
-	font-size:24px;
-	font-weight:600;
-}
-.youtubeVideoTitleContainer h2.text-small{
-	font-size:18px;	
-}
 /** Common Styles End **/
-
 /** Webinars Section **/
 #webinars{
-    background: url("../images/bg-1080p-4.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background: url("../images/webinars.jpg");
 }
-/** Webinars Section Custom Slick Slider Styles 
-#webinars .slick-dots li button:before,
-#team .slick-dots li button:before,{
-    color: #FFF;
-}
-#webinars .slick-dots li.slick-active button:before,
-#team .slick-dots li.slick-active button:before{
-    color:#FFF;
-}
-#webinars .slick-arrow::before,
-#team .slick-arrow::before{
-    color:#000;
-}
-/** End Custom Slick Slider Styles **/
 /** End Webinar Section **/
 
 /** Alumni Section **/
-#alumni{
-	padding:100px 5px; 
+#alumni, #footer {
+		padding:30px 50px;
     background: url("../images/bg-1080p-3.jpg");
-    background-attachment: fixed;
-    background-size: cover;
 }
 #alumni .container{
 	height: 100%;
@@ -697,58 +540,134 @@ section .section-header{
 	position:relative;
 	margin: 0;
 	text-align:center;
-	color: #fff;
 	background: transparent;
-}
-#alumni .alumniDescription p{
-	font-size:35px;
-	color: rgba(255,255,255,0.8);
+	padding:40px;
 }
 /** BlockQuote **/
-#alumni .alumniDescription:before{
-	content:'\f10d';
+#alumni .alumniDescription:before {
 	position:absolute;
 	top:0;
 	left:0;
-	color: #fff;
-	opacity: 0.1;
-	font-size:45px;
 }
-#alumni .alumniDescription:after{
-	content:'\f10e';
+#alumni .alumniDescription:after {
 	position:absolute;
 	bottom:0;
 	right:0;
-	color: #fff;
-	opacity: 0.1;
-	font-size:45px;
 }
 /** BlockQuotes End **/
+/** Showcase Styles **/
+#masthead{
+    width: 100%;
+		height: 70vh;
+    overflow: hidden;
+		margin-top:0;
+    background: url("../images/showcase.jpg") 0 -900px;
+		background-size: cover;
+    transform: translate3d(0,0,-1px);
+}
+#masthead .content{
+    height: 40%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+#proj-section {
+	background: url("../images/projects.jpg");
+}
+.projectBox .projectThumb .img-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s linear all;
+}
+.projectBox .projectThumb .img-overlay>div{
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.projectBox:hover .img-overlay{
+	background: rgba(31, 164, 234, 0.8);
+	opacity: 1;
+}
+.projectBox .projectThumb .img-overlay>div>a{
+	transition: 0.3s all linear;
+}
+.projectBox .projectDescInfo{
+	height: 85px;
+	overflow:hidden;
+}
+.projectBox .projectDescInfo:hover,
+.projectBox .projectDescInfo:active,
+.projectBox .projectDescInfo:focus{
+	overflow: auto;
+}
+.projectBox .projectDescInfoContainer{
+	height: inherit;
+}
+@media all and (max-width:768px){
+	.projectBox .projectThumb .img-overlay{
+		position: absolute;
+		width: 100%;
+		height: 4em;
+		opacity: 1;
+		top:auto;
+		bottom: 0;
+		background: rgba(255,255,255, 0.2);
+	}
+	.projectBox .projectThumb:hover .img-overlay{
+		background: rgba(255,255,255, 0.2);
+		opacity: 1;
+	}
+	.projectBox .projectThumb .img-overlay>div>a{
+		transition: 0.3s all linear;
+	}
+	.projectBox .projectInfo{
+		height: 131px;
+	}
+	.projectBox .projectDesc,
+	.projectBox .projectAuthor{
+		height: inherit;
+	}
+}
+/** Showcase Styles End **/
 /** Alumni Section End **/
 
 /** Team Section **/
 #team{
-	background: url("../images/IMG_20170308_142700_01.jpg");
-	padding-bottom:50px;
-    padding-top: 10px;
+	background: url("../images/team.jpg");
+  padding-top: 10px;
 	background-size: cover;
 	background-position: center;
 }
 /** Teambox Styles **/
 .teamBox{
 	position:relative;
-	width:250px!important;
-	height:390px;
-	padding:10px 2px;
-	text-align:center;
-	margin:30px;
-	color:#FFF;
+	width:200px!important;
+	height: 350px;
+	text-align: center;
+	margin: 15px;
+	background: #fff;
+	border-radius: 0px 40px;
 }
 .teamBox .teamPhotoContainer{
-	border-radius:5px;
-	overflow:hidden;
-	height:250px;
-	width:250px;
+	border-radius: 0px 40px;
+	overflow: hidden;
+	height: 200px;
+	width: inherit;
 }
 .teamBox .teamPhotoContainer img{
 	position: relative;
@@ -756,15 +675,15 @@ section .section-header{
 	height: 100%;
 }
 .teamBox .teamInfoContainer{
-	padding:10px 2px; 
+  padding:15px 8px;
 	width: 100%;
+	text-align: center;
 }
 .teamBox .teamName{
 	margin: 5px 0;
 }
 .teamBox .teamDesignation{
 	margin:5px 0;
-	text-transform: uppercase;
 }
 .teamBox .teamSocial{
 	margin: 5px 0;
@@ -775,39 +694,27 @@ section .section-header{
 /** Open Source and Events Participate Section Combined **/
 #openSource{
     background: url("../images/meetups.jpg");
-    background-attachment: fixed;
-    background-size: cover;    
-	background-color: rgba(255,255,255,0.6);
-    background-blend-mode:overlay;
-}
-#openSourceListContainer{
-    display: table;
-    margin:5px auto;
-    left:0;right: 0;
 }
 #openSource .logoContainer,
 #eventsParticipate .logoContainer{
-    vertical-align: middle;
-    width: auto;
-    height: 100%;
-    box-sizing: content-box;
-}
-#openSource .section-header{
-    color: #000;
+  vertical-align: middle;
+  width: auto;
+  height: 100%;
+  box-sizing: content-box;
 }
 #eventsParticipate{
-    background: url("../images/bg-1080p-2.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+  background: url("../images/participate.jpg");
 }
-#eventsParticipate .section-header{
-    color: #000;
+#openSourceListContainer,
+#eventsParticipateListContainer {
+  border-radius: 0px 50px;
+  padding: 40px 5px;
+	margin: 40px 40px;
 }
 /** End Open Source and Events Participate **/
 
 /** Footer Styles **/
 #footer{
-	background: #FFF;
 	margin-bottom:0px;
 }
 #footer>.container>div.row{
@@ -817,8 +724,7 @@ section .section-header{
     vertical-align: middle;
 }
 #footer .widgetTitle{
-	height: 70px;
-	border-bottom:3px solid #000; 
+	border-bottom: 2px solid #212121;
 }
 #footer .widgetContent{
 	width: 100%;
@@ -836,10 +742,9 @@ section .section-header{
 	padding:5px;
 }
 .contactLinksContainer li{
-	font-size: 18px;
 	position: relative;
 	padding-left:23px;
-	margin:5px 0px; 
+	margin:5px 0px;
 }
 .contactLinksContainer li i.fa{
 	position: absolute;
@@ -849,54 +754,53 @@ section .section-header{
 	left: 0;
 	margin-top:0.2em;
 }
-.contactLinksContainer li a{
-	font-size:16px;
+.communityPage {
+			padding-top: 30px;
+			margin-left: 0;
+			margin-right: 0;
+			width: 100%;
+			background: url("../images/projects.jpg");
 }
-.contactLinksContainer li a:hover,
-.contactLinksContainer li a:active,
-.contactLinksContainer li a:focus{
-	text-decoration: underline;
-}
-/** Communities Page Styles **/
-#content{
-	width: 100%;
-}
-section.communityBox{
-	width: 100%;
+.communityBox{
     background: #FFF;
-    color: #000;
-	overflow: hidden;
-	padding:10px;
+		overflow: hidden;
+		padding:10px;
+		margin: 15px;
+		border-top: solid 5px #26a6d3;
+		border-bottom: solid 5px #26a6d3;
+		box-shadow:2px 2px 8px #262626;
+		height: 500px;
 }
-section.communityBox .section-header{
-    color: #000;
+.communityBox h1 {
+	padding: 10px;
 }
 /** End Communities Page Styles **/
-/** Animations **/
-@keyframes color-changing-background{
-	0%{
-		background:#2C3E50;
-	}
-	25%{
-		background:#674172;
-	}
-	50%{
-		background:#96281B;
-	}
-	75%{
-		background:#336E7B;
-	}
-	100%{
-		background:#2C3E50;
-	}
+/** Up button styles **/
+#up{
+     position: fixed;
+     bottom: 10vh;
+     right: 5vw;
+     height: 50px;
+     width: 50px;
+     border-radius: 5px;
+     z-index: 10;
+     cursor: pointer;
+     padding: 12px;
+     box-shadow: 1px 1px 3px 0 #1b1b1b;
+     transition: all 0.2s linear;
 }
-@keyframes animated-pulse{
-	from{
-		opacity: 1;
-		transform: scale(1.0);
-	}
-	to{
-		opacity: 0.6;
-		transform: scale(1.2);
-	}
+@media all and (min-width: 300px) and (max-width: 768px){
+	#up{
+         width: 40px;
+         height: 40px;
+         padding: 14px;
+    }
+}
+/** End Up button styles **/
+
+#home, #intro, #events, #webinars, #openSource,
+#alumni, #eventsParticipate, #footer,
+#proj-section, .communityPage {
+    background-attachment: fixed;
+    background-size: cover;
 }

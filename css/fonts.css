@@ -1,32 +1,66 @@
 /** Fonts **/
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Dosis');
-@import url('https://fonts.googleapis.com/css?family=Roboto|Galada|Prata|Tangerine|Goudy+Bookletter+1911');
-body{
-    font-family: 'Quick Sand';
-}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Galada|Prata|Tangerine|Goudy+Bookletter+1911');
 .minScreenSizeOverlay .content{
+    font-size: 20px;
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
 }
-h1{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 500;
+.font-10{
+    font-size: 10px;
+}
+h1, section .section-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+h2, .heading, .nav-link {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+body, p, li {
+    font-family: 'Dosis', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+button{
+    font-family: 'Quick Sand', serif;
+    font-weight: 600!important;
+    border: solid 2px!important;
+}
+/* Icons */
+.iconMed{
+    font-size:24px;
+}
+/*End Icons */
+.preloader .preloader-content{
+    font-size: 40px;
 }
 .preloader .preloader-content .loading-text{
+    font-size: 25px;
     font-family: 'Dosis', sans-serif;
     font-weight:300;
 }
-#mainHeader li>a{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300 !important;
-    font-size: 1em;
+.flashbox .content .closeBtn{
+  	font-size:25px;
 }
-section .section-header{
-    font-family: 'Prata', sans-serif;
-    font-weight: 800;
-    font-size: 3.5em;
+#mainHeader {
+    font-size: 16px;
 }
-#home .slide h1{
+#mainHeader .navbar-toggle {
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link:hover{
+  font-size:18px;
+}
+
+/*#home h1{
     font-family: 'Galada', sans-serif;
     font-weight: 500;
     font-size: 70px;
@@ -36,38 +70,95 @@ p.description, .servicesList li{
     font-weight: 300;
     font-size: 1.4em;
 }
-#home .slide p.description{
+#home p.description{
 	font-size: 1.4em;
-}
+}*/
 @media all and (max-width:768px){
-	#home .slide .slideHeader h1{
+	#home .slideHeader h1{
 		font-size: 45px;
 	}
 }
 @media all and (min-width:1200px){
-	#home .slide .slideHeader h1{
+	.slideHeader h1{
 		font-size: 60px;
 	}
 }
+/** End Home Styles **/
+
+/** Intro Section **/
 .eventTiming{
     font-size: 13px;
 }
-.servicesList li{
-    font-size: 1.3em;
+/*#intro .servicesList li {
+  font-size: 16px;
+}*/
+@media screen and (max-width:768px){
+	/** Mobile devices **/
+	#intro .siteAboutContainer{
+		font-size:30px;
+	}
+    #intro .heading{
+        font-size: 26px;
+    }
 }
-#intro .section-header{
+@media screen and (max-width:400px){
+	#intro .heading{
+		font-size:22px;
+	}
+}
+/** Intro Section End **/
+
+/** Events Section **/
+.eventBox .eventCTA button,
+.projectBox .projectCTA button{
+    font-size: 1em;
     font-family: 'Dosis', sans-serif;
-    font-weight: 700;
 }
-#intro .heading{
+.eventBox .event-buttons {
+  font-weight: 600;
+  font-size: 16px;
+}
+@media all and (min-width:1024px){
+	.eventBox .eventCTA button{
+		font-size: 1.2em;
+}
+}
+/** End Event Box Styles **/
+/** Youtube Box Styles **/
+.projectBox .projectDescInfoContainer{
     font-family: 'Dosis', sans-serif;
-    font-weight: 300;
 }
-.youtubeVideoTitleContaier h2{
+
+/*.eventTitle h2,
+.projectTitle h2{
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+}*/
+.eventTitle h2 {
+  text-transform: none;
+}
+@media all and (min-width:300px){
+    .eventTitle h2, .youtubeVideoTitleContainer h2,
+    .projectTitle h2{
+        font-size: 1.2em;
+    }
+}
+@media all and (min-width:768px){
+    .eventTitle h2, .youtubeVideoTitleContainer h2,
+    .projectTitle h2{
+        font-size: 1.4em;
+    }
+}
+#alumni .alumniDescription:before {
+    content:'\f10d';
+  	font-size:35px;
+}
+#alumni .alumniDescription:after{
+    content:'\f10e';
+    font-size:30px;
 }
 #alumni .alumniDescription p{
+  	font-size: 25px;
     font-family: 'Goudy Bookletter 1911', serif;
 }
 .teamBox .teamName{
@@ -79,8 +170,28 @@ p.description, .servicesList li{
     font-size:1.4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+  	text-transform: uppercase;
 }
 .contactLinksContainer li a{
-    font-style: 'Dosis', sans-serif;
+    font-family: 'Quick Sand', sans-serif;
     font-weight: 300;
+    font-size: 16px;
 }
+.contactLinksContainer li a:hover,
+.contactLinksContainer li a:active,
+.contactLinksContainer li a:focus{
+	text-decoration: underline;
+}
+/** Communities Page Styles **/
+.communityBox h1{
+		font-size: 27px;
+}
+#up{
+     font-size: 25px;
+}
+@media all and (min-width: 300px) and (max-width: 768px){
+	#up{
+         font-size: 1rem;
+    }
+}
+/** End Up button styles **/
