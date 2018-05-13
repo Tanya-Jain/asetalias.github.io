@@ -1,0 +1,43 @@
+[{
+    "title":"PyDelhi",
+    "tag":  "pydelhi",
+    "logo": "images/logos/pydelhi.png",
+    "desc": "We at PyDelhi, are a volunteer-driven organisation comprising of pythonistas, enthusiasts, entreprueners, researchers, students and many more with a primary interest in the programming language, Python. PyDelhi conducts bi-weekly meet-ups on different topics related but not limited to Python and its applications.\n\n**Social Links**\n[Website](\"http://pydelhi.org\") | [Meetup Page](\"https://www.meetup.com/pydelhi/\")"
+},
+{
+    "title":"Indian Linux Users Group Delhi",
+    "tag":  "ilugd",
+    "logo": "images/logos/ilugd.png",
+    "desc": "ILUG-D is a volunteer organization, a group of technically inclined students, professionals and teachers and entrepreneurs who want to learn something new having a common primary interest in the python programming language. They Organize fortnight meetups, workshops and conference.\n\n**Social Links**\n[Website](\"https://www.linuxdelhi.org/\") | [Meetup Page](\"https://www.meetup.com/ilugdelhi/\")"
+},
+{
+    "title":"LinuxChix India",
+    "tag":  "linuxchix",
+    "logo": "images/logos/linuxchix.png",
+    "desc": "LinuxChix India is a regional chapter in India of LinuxChix, a global community for women and everyone who likes Linux and for anyone who wants to support women in computing. It is an international group founded in 1999 of Free Software users and developers, ranging from students to professional experts, with the aim of supporting women in Linux and willing to teach and foster the growth of Linux. Yet, it is gender independent.\n\n**Social Links**\n[Telegram](\"https://goo.gl/0hTwWn\") | [Website](\"http://india.linuxchix.org/\") | [Meetup Page](\"https://www.meetup.com/LinuxChix-India-Meetup/\") | [Twitter](\"https://twitter.com/linuxchixin\") | [Mailing List](\"http://mailman.linuxchix.org/mailman/listinfo/indichix\")"
+},
+{
+    "title":"Mozilla Delhi",
+    "tag":  "mozpacers",
+    "logo": "images/logos/mozpacers.png",
+    "desc": "Mozpacers are the active Mozillians of the Delhi Mozilla Community. Two ReMos (Mozilla Representatives) Anup Kumar Mishra and Ajay Kumar, along with Bhuvnesh Dogra took up initiatives in early 2014, to ameliorate the existing Delhi Mozilla Community. Ever since then, the Community has been deluged with contributors from diverse disciplines. We strongly believe in building up an Open and Dynamic Community, that will contribute actively to achieve Mozilla’s Mission i.e. Making a better Web.\n\n**Social Links**\n[Website](\"http://mozpacers.org/\") | [Meetup Page](\"https://www.meetup.com/Delhi-Mozilla-NCR-Meetup-Group/\")"
+},
+{
+    "title":"Women Who Code Delhi",
+    "tag":  "womenwhocode",
+    "logo": "images/logos/womenwhocode.jpeg",
+    "desc": "Women Who Code is a global non-profit organization dedicated to inspiring women to excel in technology careers. It aims to provide an avenue into tech, empowering women with skills needed for professional advancement, and providing environments where networking and mentorship are valued. As of 2017, the organization has executed more than 5,000 free events around the world, garnered a membership exceeding 100,000, and has a presence in 60 cities over 20 countries.\n\n**Social Links**\n[Facebook Page](\"https://facebook.com/womenwhocode\") | [Website](\"https://www.womenwhocode.com/\") | [Meetup Page](\"http://wwc.meetup.com/\") | [Twitter](\"https://twitter.com/womenwhocode\")"
+},
+{
+    "title":"Open Source Community",
+    "tag":  "opensource",
+    "logo": "images/logos/opensource.png",
+    "desc": "**Contact:** +91-9654161510\n**Telegram:** @uditwapt)\n**Email ID:** [udit.gupta@owasp.org](\"mailto:udit.gupta@owasp.org\"), [uditwapt@gmail.com](\"mailto:uditwapt@gmail.com\")\n\n**Social Links**\n[Telegram](\"https://goo.gl/rjkbmI\") | [Google Group](\"https://goo.gl/tmH3Mg\") | [Google Form](\"https://goo.gl/forms/teSEQh4j4697Saoz2\") | [Facebook Group](\"https://goo.gl/tMKxC8\")"
+},
+{
+    "title":"Other Dev Communities",
+    "tag":  "others",
+    "logo": "",
+    "desc": "Join other developer groups on Telegram\n\n**Social Links**\n[JavaScript](\"https://goo.gl/f7sSn9\") | [Python](\"https://goo.gl/Q6NE71\") | [Java](\"https://goo.gl/H8XBhL\") | [PHP](\"https://goo.gl/Q1ipFx\") | [C/C++](\"https://goo.gl/8nQb3w\") | [Android](\"https://goo.gl/ADW5Tv\") | [iOS/Swift](\"https://goo.gl/7q4X4g\") | [UI/UX & Web Designers](\"https://goo.gl/a6Lcy2\")"
+}
+]

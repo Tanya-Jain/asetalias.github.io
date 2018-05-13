@@ -1,28 +1,167 @@
-.button-Lime{
-	background: #CDDC39; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #CDDC39, #29B6F6); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #CDDC39, #29B6F6); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #CDDC39, #29B6F6); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #CDDC39, #29B6F6); /* Standard syntax */
+#home, #events, #eventsParticipate, #openSource {
+	box-shadow: inset 0 0 0 2000px rgba(28,155,208,0.7);
 }
-.button-Purple{
-	background: #AB47BC; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #AB47BC, #311B92); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #AB47BC, #311B92); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #AB47BC, #311B92); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #AB47BC, #311B92); /* Standard syntax */
+#team {
+	box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.6);
 }
-.button-Blue{
-	background: #039BE5; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #039BE5, #311B92); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #039BE5, #311B92); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #039BE5, #311B92); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #039BE5, #311B92); /* Standard syntax */
+
+.minScreenSizeOverlay{
+	box-shadow:inset 0px 0px 100px 1px #6B6B6B;
+	background:#ECF0F1;
 }
-.button-Lime:hover,.button-Purple:hover,.button-Blue:hover {
-	background: #FFFF00; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left bottom, #FFFF00, #00C853); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top right, #FFFF00, #00C853); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top right, #FFFF00, #00C853); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to top right, #FFFF00, #00C853); /* Standard syntax */
+.preloader {
+		background:#000;
+}
+.flashbox {
+	background:rgba(0,0,0,0.5);
+}
+.slick-dark .slick-dots li button{
+	box-shadow: 0 0 0;
+}
+#mainHeader {
+	background: #FFF;
+	box-shadow: 0px 0px 3px #000;
+}
+#intro{
+    background: #2f2f2f;
+}
+.eventBox,
+.youtubeBox,
+.projectBox{
+	background:#fff;
+	box-shadow:3px 3px 8px #262626;
+}
+a:hover {
+  color: #1c9bd0;
+}
+/* Icons */
+.iconMed{
+    font-size:24px;
+}
+.fa-code-fork, .fa-angle-up {
+  color: #fff;
+}
+#events .fa {
+  color: #424242;
+}
+.fa-facebook{
+	color: #4267B2;
+}
+.fa-link{
+	color: #34A853;
+}
+/*End Icons */
+.preloader .preloader-content{
+  color:rgba(255,255,255,0.9);
+}
+.preloader .preloader-content .loading-text{
+  color:rgba(255,255,255,0.6);
+}
+.flashbox .content .closeBtn,
+/*Navbar on Landing page */
+#mainHeader .mainHeaderLayout1,
+#mainHeader.mainHeaderLayout1 .nav-link,
+/*End NavBar on Landing page*/
+.slick-dark .slick-dots li button::before,
+#webinars .section-header, #webinars,
+#home .slide, #intro,
+/** Events Section **/
+.eventBox .eventCTA button,
+.projectBox .projectCTA button,
+.eventBox .event-buttons,
+/** Youtube Box Styles **/
+.projectBox .projectThumb .img-overlay>div>a:hover,
+.contactLinksContainer li a,
+/** Footer Styles **/
+#footer {
+  	color:#FFF;
+}
+.nav-link:hover,
+#mainHeader.mainHeaderLayout1 .nav-link:hover{
+	color: #1c9bd0;
+}
+
+.youtubeBox .youtubeVideoTitleContainer{
+	background-color: #fff;
+}
+.eventBox, .projectBox, .youtubeBox,
+.youtubeVideoTitleContainer h2 a,
+.teamBox, .communityBox, .communityBox h1 {
+  color: #212121;
+}
+#alumni .alumniDescription:before ,
+#alumni .alumniDescription:after{
+  color: #9e9e9e;
+}
+#alumni .alumniDescription p{
+  color: rgba(255,255,255,0.8);
+}
+
+/** End Team Section **/
+
+/** Open Source and Events Participate Section Combined **/
+#openSourceListContainer,
+#eventsParticipateListContainer {
+  background-color: rgba(255,255,255,0.9);
+}
+/** End Open Source and Events Participate **/
+
+#up{
+	background-color: #1d1d1d;
+	color: #fff;
+  font-size: 25px;
+}
+#up:hover,#up:active{
+		 color: #fefefe;
+		 background-color: #424242;
+}
+/** End Up button styles **/
+/** Animations **/
+@keyframes color-changing-background{
+	0%{
+		background:#2C3E50;
+	}
+	25%{
+		background:#674172;
+	}
+	50%{
+		background:#96281B;
+	}
+	75%{
+		background:#336E7B;
+	}
+	100%{
+		background:#2C3E50;
+	}
+}
+@keyframes animated-pulse{
+	from{
+		opacity: 1;
+		transform: scale(1.0);
+	}
+	to{
+		opacity: 0.6;
+		transform: scale(1.2);
+	}
+}
+
+
+
+.text-yellow{
+	color: #F1CF27!important;
+}
+.text-green{
+	color: #019875!important; /** Green Haze **/
+}
+.text-blue{
+	color: #4183D7!important; /** Royal Blue **/
+}
+.text-red{
+	color: #C0392B!important; /** Tall Poppy **/
+}
+.text-grey{
+	color: #BDC3C7!important; /** Silver Sand**/
+}
+.text-white{
+	color:#FFF!important; /** White **/
 }
