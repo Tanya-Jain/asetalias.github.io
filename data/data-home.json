@@ -14,32 +14,32 @@
         ],
         "open_source":[
             {
-                "url":"communities.htm#pydelhi",
+                "url":"communities.html#pydelhi",
                 "logo":"images/logos/pydelhi.png",
                 "title":"PyDelhi"
             },
             {
-                "url":"communities.htm#ilugd",
+                "url":"communities.html#ilugd",
                 "logo":"images/logos/ilugd.png",
                 "title":"Indian Linux Users Group Delhi"
             },
             {
-                "url":"communities.htm#linuxchix",
+                "url":"communities.html#linuxchix",
                 "logo":"images/logos/linuxchix.png",
                 "title":"LinuxChix India"
             },
             {
-                "url":"communities.htm#mozpacers",
+                "url":"communities.html#mozpacers",
                 "logo":"images/logos/mozpacers.png",
                 "title":"Mozilla Delhi"
             },
             {
-                "url":"communities.htm#opensource",
+                "url":"communities.html#opensource",
                 "logo":"images/logos/opensource.png",
                 "title":"Open Source Community"
             },
             {
-                "url":"communities.htm#pycon",
+                "url":"communities.html#pycon",
                 "logo":"images/logos/pycon.png",
                 "title":"PyCon India"
             }
@@ -51,7 +51,7 @@
                 "title":"Google Summer of Code"
             },
             {
-                "url":"https://ilugd.github.io/",
+                "url":"https://www.outreachy.org/",
                 "logo":"images/logos/outreachy.png",
                 "title":"Outreachy"
             },
@@ -59,6 +59,31 @@
                 "url":"https://in.pycon.org",
                 "logo":"images/logos/pycon.png",
                 "title":"PyCon India"
+            },
+            {
+                "url":"https://fossee.in/fellowship",
+                "logo":"images/logos/fossee.png",
+                "title":"FOSSEE"
+            },
+            {
+                "url":"https://www.fsf.org/",
+                "logo":"images/logos/fsf.png",
+                "title":"Free Software Foundation"
+            },
+            {
+                "url":"https://cos.io/",
+                "logo":"images/logos/openscience.png",
+                "title":"Centre for Open Science"
+            },
+            {
+                "url":"https://railsgirlssummerofcode.org/",
+                "logo":"images/logos/rgsoc_logo.png",
+                "title":"Rails Girls Summer of Code (RGSoC)"
+            },
+            {
+                "url":"https://blog.torproject.org/join-tors-summer-privacy",
+                "logo":"images/logos/tor.png",
+                "title":"TOR Summer of Code"
             }
         ],
         "team":[
@@ -81,7 +106,7 @@
             {
                 "name":"Tanya Jain",
                 "designation":"Student",
-                "github": "Tanya-Jain", 
+                "github": "Tanya-Jain",
                 "facebook":"tanya.jain3",
                 "website":"http://www.tanya-jain.xyz",
                 "ppicUrl": "images/team/tanya.jpg"
@@ -98,12 +123,14 @@
                 "name":"Parth Sharma",
                 "designation":"Student",
                 "github": "parthsharma2",
+                "facebook": "parthsharma02",
                 "ppicUrl": "images/team/parth.jpg"
             },
             {
                 "name":"Omkar Yadav",
                 "designation":"Student",
-                "github": "omkar108",
+                "github": "omi10859",
+                "website": "http://omkar.site",
                 "facebook":"omi.108",
                 "ppicUrl": "images/team/omkar.jpg"
             },
@@ -111,14 +138,9 @@
                 "name":"Vipul Gupta",
                 "designation":"Student",
                 "github": "vipulgupta2048",
-                "website":"http://mixstersite.wordpress.com",
-                "ppicUrl": "images/team/vipulg.jpg"
-            },
-            {
-                "name":"Ajay Tripathi",
-                "designation":"Student",
-                "github":"ATB00ker",
-                "ppicUrl":"images/team/ajay.jpg"
+                "facebook": "vipulgupta2048",
+                "website":"http://mixstersite.wordpress.com/about",
+                "ppicUrl": "images/team/vipulg.jpeg"
             },
             {
                 "name":"Anuja Agarwal",
