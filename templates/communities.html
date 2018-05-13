@@ -1,0 +1,31 @@
+{% extends 'components/_base.html' %}
+{% block title %}Open Source Communities{% endblock %}
+{% block content %}
+    <div id="contentWrap">
+        <section class="container communityPage">
+            <div class="row col-centered">
+                {% for community in communities %}
+                <div class="col-md-4 col-centered">
+                    <div class="communityBox auto-center" id="{{ community.tag }}">
+                        <h1 class="text-center">{{ community.title }}</h1>
+                        <div>
+                            {%- if community.logo|length > 0 %}
+                            <p><img class="logo-med" src="{{ community.logo }}"/></p>
+                            {%- endif %}
+                            <p>{{ community.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+            {%- if loop.index is divisibleby(3) %}
+            </div>
+            <div class="row">
+            {%- endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+ {% endblock %}
+ {% block js %}
+    <!-- Page Scripts -->
+    <script src="js/communities-page.js"></script>
+{% endblock %}

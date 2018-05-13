@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,27 +9,37 @@
     <!-- Search engine optimisatin -->
     <meta name="description" content="ASET ALIAS Official Website">
     <meta name="keywords" content="Aset, Alias, Alias Club, Linux, Amity, Linux User Group, LUG, Amity LUG, Linux Assistance">
-    <meta name="author" content="ASET-ALIAS">
-	<!-- End Search Engine Optimisation -->
-	
-    <title>ASET-ALiAS : Amity Linux Assistance Sapience</title>
+    <meta name="author" content="ALIAS">
+    <!-- End Search Engine Optimisation -->
 
-     <!-- Site favicon -->
-     <link href="images/alias_favicon.png" rel="shortcut icon">
+    <title>ALiAS: Amity Linux Assistance Sapience</title>
+
+    <!-- Site favicon -->
+    <link href="images/ALiAS.png" rel="shortcut icon">
+    <link href="images/ALiAS.png" rel="apple-touch-icon">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Font Awesome CSS -->
+    <!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Chewy|Josephin+Sans|Pacifico" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link href="css/fonts.css" rel="stylesheet" />
+
+    <!-- Colors -->
+    <link href="css/colors.css" rel="stylesheet" />
+    
+<!-- Slider CSS -->
+<link href="css/slick.css" rel="stylesheet">
+<link href="css/slick-theme.css" rel="stylesheet">
+<!-- End Slider CSS -->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,174 +49,896 @@
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<div class="minScreenSizeOverlay">
-    	<div>
-        	You Need a Bigger Display!
+<body id="page-top" data-spy="scroll">
+    <div id="contentWrap" class="auto-center" style="padding-top:5px;">
+        <div class="preloader">
+    <div class="content">
+        <div class="preloader-content">
+            <img src="images/ALiAS.png" class="logo-med animated-pulse"><br>
+            <span class="loading-text">loading</span>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
+</div>
+<div class="minScreenSizeOverlay">
+    <div class="contentContainer">
+        <div class="content">
+            <img src="images/ALiAS.png" class="logo-med" /><br>
+            Zoom out in browser or use a bigger display!
+        </div>
+    </div>
+</div>
+<div class="flashbox" data-enabled="0" data-enddate="Mar 09 2018">
+    <div class="content">
+        <a class="closeBtn"><i class="fa fa-minus-circle"></i></a>
+        <div class="flashBox-content">
+            <a href="http://asetalias.in/geekbattle" target="_blank"><img src="images/flashbox/poster09032018.jpg"></a>
+        </div>
+    </div>
+</div>
+<header id="mainHeader" class="mainHeaderLayout1">
+    <div id="mainNav">
+    <nav class="navbar navbar-light bg-transparent navbar-expand-md">
+        <div class="container auto-center">
+            <a href="index.html#page-top" class="page-scroll"><img class="logo logoDisplay auto-center" src="images/logo-dark.png"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrimary">
+                <i class="fa fa-bars"></i>
+            </button>
+                <div class="collapse navbar-collapse text-center" id="menuPrimary">
+                    <ul class="nav navbar-nav float-right">
+                        <li class="nav-item hidden"> <a class="page-scroll nav-link" href="index.html#page-top"> </a>
+                        </li>
+                        <li class="nav-item"> <a class="page-scroll nav-link" href="index.html#intro" data-target="#menuPrimary">About</a>
+                        </li>
+                        <li class="nav-item"> <a class="page-scroll nav-link" href="index.html#events" data-target="#menuPrimary">Events</a>
+                        </li>
+                        <li class="nav-item"> <a class="page-scroll nav-link" href="index.html#webinars" data-target="#menuPrimary">Webinars</a>
+                        </li>
+                        <li class="nav-item"> <a href="gallery.html" data-target="#menuPrimary" class="nav-link">Photo Gallery</a>
+                        </li>
+                        <li class="nav-item"> <a href="communities.html" data-target="#menuPrimary" class="nav-link">Communities</a>
+                        </li>
+                        <li class="nav-item"> <a href="showcase.html" data-target="#menuPrimary" class="nav-link">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+</div>
+</header>
+        
+<section id="home" class="home-section  background-overlay" style="background-image: url('images/home.jpg'); ">
+    <div class="container">
+        <div class="slidesContainer slider single-item slick-slider">
+            <div class="slide">
+                <div class="container" style="position: relative;height: 100%;width: 100%;">
+                    <div class="text-center absolute-center slideContent">
+                        <div class="row slideHeader">
+                             <h1>Howdy Developers!</h1>
+                        </div>
+                        <div class="row slideSubHeader">
+                            <p class="description">ALiAS welcomes you to Amity! Let&apos;s see what ALiAS offers you!</p>
+                        </div>
+                        <div class="row slideButton">
+                            <div class="col-6">
+                                <a href="https://goo.gl/forms/mZAhlJMxqCwZVbRK2" class="page-scroll joinNowBtnLink">
+                                    <button class="btn btn-lg btn-outline-light float-right">Join Now</button>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#intro" class="page-scroll">
+                                    <button class="btn btn-lg btn-outline-light float-left">Know More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slide" style="background-image:url('images/bg-1080p-3.jpg')">
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="container" style="position: relative;height: 100%;width: 100%;">
 
-                <a class="page-scroll" href="#page-top">
-                    	<img src="images/logo.png" class="logo" width="130" height="auto" style="margin: 5px 20px 5px 5px"/>
+                    <div class="text-center absolute-center slideContent">
+
+                        <div class="row slideHeader">
+
+                            <div class="col-12">
+
+                                <h1>Code and Learn</h1>
+
+                            </div>
+
+                        </div>
+
+                        <div class="slideSubHeader width-60 mx-auto">
+
+                            <div class="siteAboutHistory">
+
+                                <p class="description">Check out these awesome projects developed by the members of ALiAS!</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row slideButton">
+
+                            <div class="col-12"><a href="showcase.html"><button class="btn btn-primary btn-large">View Projects</button></a></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            --></div>
+    </div>
+</section>
+
+<!-- Intro Section -->
+<section id="intro" class="intro-section ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 headerContainer">
+                <span class="bottom-border bottom-border-light center">
+                    <h1 class="siteAboutContainer animated section-header">
+                        <strong class="decorColor">A</strong>mity <strong class="decorColor">Li</strong>nux <strong class="decorColor">A</strong>ssitance <strong class="decorColor">S</strong>apience
+                    </h1>
+                </span>
+            </div>
+        </div>
+        <div class="row  text-left siteAboutMore animated">
+            <div class="siteAboutServices col-md-6">
+                <!-- This section contains "Why should I join the club" details and Join
+                Club link button -->
+                <div class="section-header subheader">
+                    <span class="bottom-border bottom-border-light"><i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span></span>
+                </div>
+                <p class="description">Join the club and which is just not about certificates or designation(s):
+                    <br>
+                    <ul class="list-group list-unstyled servicesList">
+                        <!-- This List contains all that club offers Format: <li class="fa"><span>Service description</span></li>
+                            fa class added in li is used to add Ticks using pseudo elements-->
+                        <li><i class="fa fa-code-fork"></i><span> Stand out of crowd and learn unique skills from people already working in the industry!</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> Find like minded Delhi/NCR Tech Communities.</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> Find mentors for GSoC</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn!</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> Chance to find Interships under our Alumni.</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> ALiAS welcomes each and every student of amity irrespective of their department.</span></li>
+                        <li><i class="fa fa-code-fork"></i><span> Already know something? Teach it to others! That's how we work!</span></li>
+                    </ul>
+                </p>
+            </div>
+            <div class="siteAboutHistory col-md-6">
+                <!-- This div contains "How the club came to be?" -->
+                <div class="section-header subheader">
+                    <span class="bottom-border bottom-border-light"><i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span></span>
+                </div>
+                <p class="description"><p>Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.</p>ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer</p>
+                <div class="row row-centered">
+                    <a class="joinNowBtnLink" href="https://goo.gl/forms/mZAhlJMxqCwZVbRK2">
+                    <!-- This anchor contains link to Registration form of the club -->
+                        <button id="joinNowBtn" class="btn btn-outline-light btn-lg">Join Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Container Ends -->
+</section>
+
+<!-- Events Section -->
+
+<section id="events" class="events-section theme-bg ">
+    <div class="container">
+        <div class="row row-centered align-items-center">
+            <div class="col-md-6">
+                <div class="row headerContainer row-centered">
+                     <h1 class="section-header text-center" id="upcomingEventsHeader">Upcoming Events</h1>
+                </div>
+                <div class="row text-right row-centered">
+                    <div class="btn-group btn-sm">
+                        <a href="https://github.com/asetalias/Logistics-and-Event-Contributions/issues/new">
+                            <button class="event-buttons btn  btn-outline-dark" id="eventHostBtn">Want to propose an event as a speaker?</button>
+                        </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9l-82I3DhhDkpSjJol86lt4QQQyB49z97ovoR9HT64uEK0A/viewform?usp=sf_link">
+                            <button class="event-buttons btn  btn-outline-dark" id="eventSuggestBtn">Suggestion for future event?</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 eventsList text-center col-centered" id="eventsListContainer">
+                <!-- This section contains all the upcoming events -->
+                <div class="slide col-3 eventBox col-centered text-center" id="eventBox-">
+                    <div class="row eventThumb">
+                        <img src="images/flashbox/poster22032018.jpeg">
+                    </div>
+                    <div class="row eventTitle">
+                        <div class="col-xl-12 text-center">
+                             <h2>Introduction to Raspberry pi & its applications in IoT</h2>
+                        </div>
+                    </div>
+                    <div class="row eventInfo">
+                        <div class="col-7 eventDesc">
+                                    <p><p>For the first time, ALiAS organises a workshop on Raspberry pi and its application in IoT. Let someone experienced show you its power, applications by Hands-on demonstrations, live setups and much more.</p></p>
+                        </div>
+                        <div class="col-5 eventTiming text-left">
+                            <div class="date">
+                                <i class="fa fa-calendar icon"></i>&nbsp;<span><strong>22 March 2018</strong></span>
+                            </div>
+                            <div class="startTimimg">
+                                <i class="fa fa-clock-o icon"></i>&nbsp;<span><strong>2:15 pm</strong></span>
+                            </div>
+                            <div class="endTimimg">
+                                <i class="fa fa-clock-o icon"></i>&nbsp;<span><strong>4:00 pm</strong></span>
+                            </div>
+                            <div class="eventLocation">
+                                <i class="fa fa-map-marker icon"></i>&nbsp;<span><strong>E3 303C</strong></span>
+                            </div>
+                            <div class="eventOD">
+                              <i class="fa fa-thumbs-up icon text-success"></i>&nbsp;<span><strong>OD</strong></span>
+                            </div>
+                            <div class="row eventCTA">
+                                <div class="col-12 text-center">
+                                    <a href="http://bit.ly/alias-220318" target="_blank">
+                                        <button class="btn btn-danger btn-lg btn-flat">RSVP Now !!</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Webinar Section -->
+<section id="webinars" class="webinars-section">
+    <!-- Previous Webinars Section -->
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-xl-12 text-center col-centered headerContainer">
+                <span class="bottom-border center bottom-border-white">
+                    <h1 class="section-header" id="previousWebinarsHeader">Previous Webinars</h1>
+                </span>
+            </div>
+        </div>
+        <div class="row eventsList text-center slick-dark" id="webinarsListContainer">
+            <!-- Contains All Previous Webinars -->
+            <div class="col-xl-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoTitleContainer">
+                    <div class="col-xl-12">
+                         <h2 class="youtubeVideoTitletext-small">
+                            <a href="https://youtube.com/watch?v=CTO-8BnzS_s" target="_blank" class="text-center">Introduction to Linux</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/CTO-8BnzS_s/mqdefault.jpg">
+                    <a href="https://youtube.com/watch?v=CTO-8BnzS_s" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-xl-12">
+                            <p class="youtubeVideoDesc">This webinar would be about basics of Linux and its terminologies. We'll be covering basics of command lines/principles/every 'Must Know' things about Linux.<br/><strong>Speakers:</strong> <br/><strong>Anuvrat Parashar:</strong> <a href = "http://anuvrat.in/">http://anuvrat.in/</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoTitleContainer">
+                    <div class="col-xl-12">
+                         <h2 class="youtubeVideoTitletext-small">
+                            <a href="https://youtube.com/watch?v=gmi_YM_N2L4" target="_blank" class="text-center">Introduction to Command Line Interface</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/gmi_YM_N2L4/mqdefault.jpg">
+                    <a href="https://youtube.com/watch?v=gmi_YM_N2L4" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-xl-12">
+                            <p class="youtubeVideoDesc">This webinar would be about basics of using Command Line Interface in Linux. We'll be covering basics of command lines/ principles/ every 'Must Know' things about Linux. <br/><strong>Speakers:</strong> <br/><strong>Rohit Goyal:</strong> <a href = "https://about.me/rohitgoyal18">about.me/rohit</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoTitleContainer">
+                    <div class="col-xl-12">
+                         <h2 class="youtubeVideoTitletext-small">
+                            <a href="https://youtube.com/watch?v=JcYABQrAkaU" target="_blank" class="text-center">Open Source Softwares</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/JcYABQrAkaU/mqdefault.jpg">
+                    <a href="https://youtube.com/watch?v=JcYABQrAkaU" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-xl-12">
+                            <p class="youtubeVideoDesc">Learn the basics of Open Source and Open Source Software in this live interactive session.<br/><strong>Speakers:</strong> <br/><strong>Amit Kumar:</strong> <a href = "http://iamit.in">http://iamit.in</a> <br/><strong>Sanyam Khurana:</strong> <a href="http://www.sanyamkhurana.com">sanyamkhurana.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoTitleContainer">
+                    <div class="col-xl-12">
+                         <h2 class="youtubeVideoTitletext-small">
+                            <a href="https://youtube.com/watch?v=fjxUa7HX0NY" target="_blank" class="text-center">Wordpress 101</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/fjxUa7HX0NY/mqdefault.jpg">
+                    <a href="https://youtube.com/watch?v=fjxUa7HX0NY" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-xl-12">
+                            <p class="youtubeVideoDesc">Wordpress is an online, open source website creation tool written in PHP. But in non-geek speak.It's probably the easiest and most powerful blogging and website content management system (or CMS) in existience today.Here's your chance to learn from the expert.<br><strong>Speakers:<br>Samriddha Prajapati:</strong> <a href="http://samriddha.hol.es/web/" target="_blank">http://samriddha.hol.es/web/</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 youtubeBox col-centered text-center slide">
+                <div class="row youtubeVideoTitleContainer">
+                    <div class="col-xl-12">
+                         <h2 class="youtubeVideoTitletext-normal">
+                            <a href="https://youtube.com/watch?v=i6vKEo12KfE" target="_blank" class="text-center">GitHub 101</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row youtubeVideoContainer">
+                    <img src="https://img.youtube.com/vi/i6vKEo12KfE/mqdefault.jpg">
+                    <a href="https://youtube.com/watch?v=i6vKEo12KfE" target="_blank">
+                        <div class="video-overlay hover-opacity background-overlay background-overlay-20">
+                            <i class="fa fa-play fa-4x text-danger absolute-center play-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="row youtubeInfoContainer">
+                    <div class="row youtubeVideoDescContainer">
+                        <div class="col-xl-12">
+                            <p class="youtubeVideoDesc">New to GitHub? Learn about the basic working of GitHub and what it is from this webinar.You can look more over here w.r.t to downloads and what all you need to perform GIT config on your machine : https://desktop.github.com/<br><strong>Speakers:<br>Aniket Maithani:</strong> <a href="http://www.aniketmaithani.net/" target="_blank">http://www.aniketmaithani.net/</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Open Source Section -->
+<section id="openSource" class="open-source-section">
+    <div class="container align-items-center">
+        <div class="col-lg-8 openSourceList text-center col-centered" id="openSourceListContainer">
+            <div class="row row-centered">
+                <div class="col-lg-12 headerContainer col-centered">
+                    <span class="bottom-border center">
+                        <h1 class="section-header" id="openSourceHeader">Join the Open Source Communities</h1>
+                        <div>
+                            <em>Click on logo to know more</em>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#pydelhi">
+                    <img src="images/logos/pydelhi.png" class="logo-med" title="PyDelhi" alt="PyDelhi">
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navigation-links">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#intro">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#events">Events</a>
-                    </li>
-                    <li>
-
-                    	<a class="page-scroll" href="#alumni" style="margin-top:5px">Alumni</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Our Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#ilugd">
+                    <img src="images/logos/ilugd.png" class="logo-med" title="Indian Linux Users Group Delhi" alt="Indian Linux Users Group Delhi">
+                </a>
             </div>
-            <!-- /.navbar-collapse -->
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#linuxchix">
+                    <img src="images/logos/linuxchix.png" class="logo-med" title="LinuxChix India" alt="LinuxChix India">
+                </a>
+            </div>
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#mozpacers">
+                    <img src="images/logos/mozpacers.png" class="logo-med" title="Mozilla Delhi" alt="Mozilla Delhi">
+                </a>
+            </div>
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#opensource">
+                    <img src="images/logos/opensource.png" class="logo-med" title="Open Source Community" alt="Open Source Community">
+                </a>
+            </div>
+            <div class="col-md-2 col-centered logoContainer">
+                <a href="communities.html#pycon">
+                    <img src="images/logos/pycon.png" class="logo-med" title="PyCon India" alt="PyCon India">
+                </a>
+            </div>
         </div>
-        <!-- /.container -->
-    </nav>
+    </div>
+</section>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="siteAboutContainer"></p>
+<!-- Alumni Section -->
+<section id="alumni" class="alumni-section">
+    <div class="container">
+        <div class="fa jumbotron alumniDescription row-centered">
+            <p><p>Alumni who were a part of ALiAS are now placed in various companies or some of them are still consulting other(s) in the open source domain</p></p>
+        </div>
+    </div>
+</section>
+
+<!-- Participate & Learn Section -->
+<section id="eventsParticipate" class="events-participate-section">
+    <div class="container align-items-center">
+        <div class="col-lg-8 eventsParticipateList text-center col-centered" id="eventsParticipateListContainer">
+            <div class="row row-centered">
+                <div class="col-lg-12 headerContainer col-centered">
+                    <span class="bottom-border center"><h1 class="section-header" id="openSourceHeader">Participate & Learn</h1></span>
                 </div>
             </div>
-            <div class="row  text-left siteAboutMore">
-            	<div class="siteAboutHistory">
-                	<i class="fa fa-flag iconMed"></i> <span class="heading">The Journey</span>
-                    <p class="description"></p>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://summerofcode.withgoogle.com/" target="_blank">
+                    <img src="images/logos/gsoc.png" class="logo-med" title="Google Summer of Code" alt="Google Summer of Code">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://www.outreachy.org/" target="_blank">
+                    <img src="images/logos/outreachy.png" class="logo-med" title="Outreachy" alt="Outreachy">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://in.pycon.org" target="_blank">
+                    <img src="images/logos/pycon.png" class="logo-med" title="PyCon India" alt="PyCon India">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://fossee.in/fellowship" target="_blank">
+                    <img src="images/logos/fossee.png" class="logo-med" title="FOSSEE" alt="FOSSEE">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://www.fsf.org/" target="_blank">
+                    <img src="images/logos/fsf.png" class="logo-med" title="Free Software Foundation" alt="Free Software Foundation">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://cos.io/" target="_blank">
+                    <img src="images/logos/openscience.png" class="logo-med" title="Centre for Open Science" alt="Centre for Open Science">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://railsgirlssummerofcode.org/" target="_blank">
+                    <img src="images/logos/rgsoc_logo.png" class="logo-med" title="Rails Girls Summer of Code (RGSoC)" alt="Rails Girls Summer of Code (RGSoC)">
+                </a>
+            </div>
+            <div class="col-md-3 col-centered logoContainer">
+                <a href="https://blog.torproject.org/join-tors-summer-privacy" target="_blank">
+                    <img src="images/logos/tor.png" class="logo-med" title="TOR Summer of Code" alt="TOR Summer of Code">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="team-section">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 headerContainer col-centered">
+              <span class="bottom-border bottom-border-success center"><h1 class="section-header" id="teamHeader">Meet Our Team</h1></span>
+            </div>
+        </div>
+        <div class="row teamList col-centered slick-dark">
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/nidhi.png" alt="Ms. Nidhi Chandra" title="Ms. Nidhi Chandra">
                 </div>
-                <br/>
-                <div class="siteAboutServices">
-                	<i class="fa fa-university iconMed"></i> <span class="heading">Why should I join the club?</span>
-                    <div class="row">
-   		                 <div class="col-lg-8">
-            	        	<p class="description">
-                 		   		Join the club and which is just not about certificates or designation(s): <br/>
-                       			<ul class="list-group list-unstyled servicesList"></ul>
-                    		</p>
-                 	  	</div>
-               		    <div class="col-lg-4">
-                    		<a class="joinNowBtnLink" href="#"><button id="joinNowBtn" class="btn-primary">Join Now</button></a>
-                    	</div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Ms. Nidhi Chandra</div>
+                    <div class="col-12 teamDesignation no-padding"> Faculty Coordinator
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/shilpi.jpg" alt="Dr. Shilpi Sharma" title="Dr. Shilpi Sharma">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Dr. Shilpi Sharma</div>
+                    <div class="col-12 teamDesignation no-padding"> Faculty Coordinator
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/shivam.jpg" alt="Shivam Rajput" title="Shivam Rajput">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Shivam Rajput</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/shivamdiehard" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <!-- Events Section -->
-    <section id="events" class="events-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-header">Upcoming Events</h1>
-                 </div>
-
-            </div>
-             </div>
-             <div class="row eventsList text-center">
-	         </div>
-
-    </section>
-    <!-- Alumni Section -->
-    <section id="alumni" class="alumni-section">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-lg-12 text-center">
-                	<h1 class="section-header">The Alumni</h1>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/tanya.jpg" alt="Tanya Jain" title="Tanya Jain">
                 </div>
-            </div>
-            <div class="fa row alumniDescription row-centered">	<!-- Change class from alumniDescription to alumniList for old layout -->
-            	<p></p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Team Section -->
-    <section id="team" class="team-section">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-lg-12 text-center">
-                	<h1 class="section-header">Our Team</h1>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Tanya Jain</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
                 </div>
-            </div>
-            <div class="row teamList row-centered">
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-header">Contact Us</h1>
-                    <div class="row">
-                    
-                    <a href="https://github.com/asetalias">
-                    	<i class="fa fa-github icon-grey"></i>
-                    </a>
-                    <a href="https://www.facebook.com/groups/asetalias/">
-                    	<i class="fa fa-facebook icon-grey"></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g">
-                        <i class="fa fa-youtube icon-grey"></i> 
-                    </a>
-                	<a href="https://groups.google.com/forum/#!forum/amity-linux-group">
-                     	<i class="fa fa-google-plus icon-grey"></i>   
-                 	</a>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/Tanya-Jain" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="https://facebook.com/tanya.jain3" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="http://www.tanya-jain.xyz" target="_blank" title="Website">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/ayush.jpg" alt="Ayush Agarwal" title="Ayush Agarwal">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Ayush Agarwal</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/thisisayush" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="https://facebook.com/thisisayushaa" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="http://thisisayush.com" target="_blank" title="Website">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/parth.jpg" alt="Parth Sharma" title="Parth Sharma">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Parth Sharma</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/parthsharma2" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="https://facebook.com/parthsharma02" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/omkar.jpg" alt="Omkar Yadav" title="Omkar Yadav">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Omkar Yadav</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/omi10859" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="https://facebook.com/omi.108" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="http://omkar.site" target="_blank" title="Website">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/vipulg.jpeg" alt="Vipul Gupta" title="Vipul Gupta">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Vipul Gupta</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/vipulgupta2048" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="https://facebook.com/vipulgupta2048" target="_blank" title="Facebook">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-2 no-padding">
+                        <a href="http://mixstersite.wordpress.com/about" target="_blank" title="Website">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-link fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="teamBox col-centered">
+                <div class="row teamPhotoContainer horizon-center hover-opacity hover-opacity-80">
+                    <img src="images/team/anuja.jpeg" alt="Anuja Agarwal" title="Anuja Agarwal">
+                </div>
+                <div class="row bottom-border bottom-border-success bottom-border-40 teamInfoContainer text-left">
+                    <div class="col-12 teamName no-padding">Anuja Agarwal</div>
+                    <div class="col-12 teamDesignation no-padding"> Student
+                    </div>
+                </div>
+                <div class="row teamSocial">
+                    <div class="col-2 no-padding">
+                        <a href="https://github.com/anujagrazzel" target="_blank" title="Github">
+                            <span class="fa-stack fa-lg float-left hover-opacity">
+                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- jQuery -->
+
+        <section id="footer">
+    <div class="container">
+        <div class="row widgetsContainer">
+            <div class="widgetArea col-sm-4" id="footerWidgetArea1">
+                <!-- Widget Area 1 -->
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <h2>Follow us on facebook</h2>
+                    </div>
+                    <div class="widgetContent">
+                        <!-- Facebook JavaScript SDK -->
+                        <div id="fb-root"></div>
+                        <script>
+                            (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src =
+                                    "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=296257484143696";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook - jssdk'));
+                        </script>
+                        <!-- Facebook JavaScript SDK -->
+                        <!-- Facebook Page Plugin -->
+                        <div class="fb-page" data-href="https://www.facebook.com/asetalias/" data-height="250" data-small-header="false" data-adapt-container-width="true">
+                            <blockquote cite="https://www.facebook.com/asetalias/" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/asetalias/">ALiAS</a>
+                            </blockquote>
+                        </div>
+                        <!-- Facebook Page Plugin -->
+                    </div>
+                </div>
+            </div>
+            <div class="widgetArea col-sm-4" id="footerWidgetArea2">
+                <!-- Widget Area 2 -->
+                <div class="widget">
+                    <div class="widgetTitle">
+                        <h2>Subscribe us on YouTube</h2>
+                    </div>
+                    <div class="widgetContent">
+                        <div class="youtubeVideo">
+                            <img src="https://img.youtube.com/vi/fjxUa7HX0NY/mqdefault.jpg" />
+                        </div>
+                        <script src="https://apis.google.com/js/platform.js"></script>
+                        <div class="g-ytsubscribe" data-channelid="UCKkyqEMLFW3jz-q3nJIFL3g" data-layout="full" data-count="default"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="widgetArea col-sm-4" id="footerWidgetArea3">
+                <!-- Widget Area 3 -->
+                <div class="widgetTitle">
+                    <h2>Contact us</h2>
+                </div>
+                <div class="widgetContent">
+                    <ul class="contactLinksContainer text-left">
+                        <li>
+                            <i class="fa icon-grey fa-envelope text-green"></i>
+                            <a href="mailto:contactasetalias@gmail.com" target="_blank">Email</a>
+                        </li>
+                        <li>
+                            <i class="fa icon-grey fa-github text-grey"></i>
+                            <a href="https://github.com/asetalias" target="_blank">Github</a>
+                        </li>
+                        <li>
+                            <i class="fa icon-grey fa-youtube text-red"></i>
+                            <a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" target="_blank">YouTube</a>
+                        </li>
+                        <li>
+                            <i class="fa icon-grey fa-facebook text-blue"></i>
+                            <a href="https://www.facebook.com/asetalias/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fa icon-grey fa-google-plus-square text-yellow"></i>
+                            <a href="https://groups.google.com/forum/#!forum/amity-linux-group" target="_blank">Mailing List</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row divider-top">
+            <div class="col-xs-6 text-left attribution">
+                <img class="logo logo-sm" />
+            </div>
+            <div class="col-xs-6 text-right">
+                <a href="https://github.com/asetalias/asetalias.github.io">
+                <img src="images/github-fork.png" class="logo-sm"/></a>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    <i class="fa fa-chevron-up" id="up"></span>
+
+    <!-- Jquery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <!-- Google Analytics -->
+    <script src="js/ganalytics.js"></script>
+    <!-- Essential Data -->
+    <script>
+        var logoDarkLink = "images/logo-dark.png";
+        var logoLightLink = "images/logo-light.png";
+        var flashbox = $(".flashbox");
+    </script>
 
     <!-- Functionality Scripts -->
     <script src="js/data.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(window).on('load scroll',() => {
+             if($(window).scrollTop() > 200)
+                 $('#up').show();
+             else
+                 $('#up').hide();
+         });
+         $('#up').click(() => $('body,html').animate({scrollTop:0},500));
+    </script>
+    
+<!-- Slick Slider -->
+<script src="js/slick.min.js"></script>
+
+<!-- Other JS -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrollreveal.js"></script>
+
+<!-- Page Script -->
+<script src="js/home-page.js"></script>
+    <script>
+    $(document).ready(function () {
+        $("#mainHeader").find('.page-scroll').each(function(){
+            $(this).attr("href", $(this).attr("href").replace("index.html", ""));
+        });
+    });
+    </script>
 
 </body>
 
